@@ -1,0 +1,30 @@
+{
+  "recorded_date": "2026-10-29",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_arch": "SM120",
+  "gpu_count": 1,
+  "image_digest": "sha256:28c5e1e78842de03c761e472af895cb7500b6a6df218ff0f6b411f7cbe4c7f0c",
+  "base_image": "lmsysorg/sglang@sha256:5fc09edb6a0bb1d5b6992b543723c66d08f86d7a507e951e87e0d05db4ac766e",
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "torch_cuda": "13.0",
+    "sglang": "0.5.22",
+    "sageattention": "2.2.0",
+    "comfy_kitchen": "0.2.40",
+    "cache_dit": "1.5.1"
+  },
+  "sage_commit": "d1a57a546c3d395b1ffcbeecc66d81db76f3b4b5",
+  "cuda_arch_list": "12.0",
+  "cpp_standard": "C++20",
+  "cache_dit_enabled": false,
+  "attention_backend": "sage_attn",
+  "text_encoder_attention_backend": "torch_sdpa",
+  "text_encoder_cpu_offload": true,
+  "vae_cpu_offload": true,
+  "torch_compile": false,
+  "warmup_mode": "off",
+  "checkpoint": "lilcheaty/MiniMax-H3-NVFP4",
+  "base_model": "MiniMaxAI/MiniMax-H3",
+  "model_revision_note": "Runtime downloads used repository default revisions; exact resolved model revision was not captured for this experiment.",
+  "image_note": "Observed digest belongs to a private registry image, not included here. Build recipe is supplied; rebuilding is not guaranteed to reproduce the same digest."
+}

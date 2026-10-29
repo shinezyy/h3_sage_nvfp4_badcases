@@ -1,0 +1,11 @@
+{
+  "completed_at": "2026-10-29T09:16:27.669148+00:00",
+  "sha256": "f5ff0d32f4cc6e883b984b3ef2ef09dd6a72e7d4e60f96f104778486da67257f",
+  "bytes": 1164118,
+  "inference_time_s": 331.02973421699994,
+  "peak_memory_mb": 31624.0,
+  "seconds": "13.666667",
+  "size": "864x480",
+  "server_startup_seconds": 0.12649885799987715,
+  "submission_poll_download_seconds": 345.181193377
+}

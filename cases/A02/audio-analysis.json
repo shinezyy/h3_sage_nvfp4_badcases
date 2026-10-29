@@ -1,0 +1,236 @@
+{
+  "expected": "主角：不可以抢哦。这个是我先玩的。",
+  "transcript": "不可以抢哦,这个是我先玩的冰可莱,荣西,不顾,亮丽和我这对乎的笨",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.84,
+      "text": "不可以抢哦,这个是我先玩的",
+      "tokens": [
+        50365,
+        1960,
+        6723,
+        7235,
+        95,
+        14659,
+        11,
+        15368,
+        42614,
+        10108,
+        19912,
+        1546,
+        50562
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.47981148674374535,
+      "compression_ratio": 0.946236559139785,
+      "no_speech_prob": 1.082389212980761e-11,
+      "words": [
+        {
+          "word": "不",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.99462890625
+        },
+        {
+          "word": "可以",
+          "start": 0.52,
+          "end": 0.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "抢",
+          "start": 0.88,
+          "end": 1.24,
+          "probability": 0.994140625
+        },
+        {
+          "word": "哦,",
+          "start": 1.24,
+          "end": 1.52,
+          "probability": 0.98388671875
+        },
+        {
+          "word": "这个",
+          "start": 2.08,
+          "end": 2.38,
+          "probability": 0.9970703125
+        },
+        {
+          "word": "是我",
+          "start": 2.38,
+          "end": 2.92,
+          "probability": 0.998046875
+        },
+        {
+          "word": "先",
+          "start": 2.92,
+          "end": 3.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "玩",
+          "start": 3.24,
+          "end": 3.48,
+          "probability": 1.0
+        },
+        {
+          "word": "的",
+          "start": 3.48,
+          "end": 3.84,
+          "probability": 0.99072265625
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.84,
+      "end": 8.6,
+      "text": "冰可莱,荣西,不顾,亮丽和我这对乎的笨",
+      "tokens": [
+        50562,
+        5676,
+        108,
+        4429,
+        31127,
+        109,
+        11,
+        31409,
+        96,
+        16220,
+        11,
+        1960,
+        10178,
+        122,
+        11,
+        22991,
+        940,
+        121,
+        12565,
+        1654,
+        5562,
+        8713,
+        2930,
+        236,
+        1546,
+        5437,
+        101,
+        50797
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.47981148674374535,
+      "compression_ratio": 0.946236559139785,
+      "no_speech_prob": 1.082389212980761e-11,
+      "words": [
+        {
+          "word": "冰",
+          "start": 3.84,
+          "end": 4.6,
+          "probability": 0.53076171875
+        },
+        {
+          "word": "可",
+          "start": 4.6,
+          "end": 4.82,
+          "probability": 0.73828125
+        },
+        {
+          "word": "莱,",
+          "start": 4.82,
+          "end": 5.08,
+          "probability": 0.861328125
+        },
+        {
+          "word": "荣",
+          "start": 5.34,
+          "end": 5.5,
+          "probability": 0.73828125
+        },
+        {
+          "word": "西,",
+          "start": 5.5,
+          "end": 5.76,
+          "probability": 0.6630859375
+        },
+        {
+          "word": "不",
+          "start": 6.04,
+          "end": 6.16,
+          "probability": 0.5068359375
+        },
+        {
+          "word": "顾,",
+          "start": 6.16,
+          "end": 6.44,
+          "probability": 0.90087890625
+        },
+        {
+          "word": "亮",
+          "start": 6.66,
+          "end": 6.88,
+          "probability": 0.6220703125
+        },
+        {
+          "word": "丽",
+          "start": 6.88,
+          "end": 7.16,
+          "probability": 0.56201171875
+        },
+        {
+          "word": "和",
+          "start": 7.16,
+          "end": 7.34,
+          "probability": 0.93505859375
+        },
+        {
+          "word": "我",
+          "start": 7.34,
+          "end": 7.52,
+          "probability": 0.919921875
+        },
+        {
+          "word": "这",
+          "start": 7.52,
+          "end": 7.74,
+          "probability": 0.2359619140625
+        },
+        {
+          "word": "对",
+          "start": 7.74,
+          "end": 7.96,
+          "probability": 0.30859375
+        },
+        {
+          "word": "乎",
+          "start": 7.96,
+          "end": 8.22,
+          "probability": 0.244384765625
+        },
+        {
+          "word": "的",
+          "start": 8.22,
+          "end": 8.38,
+          "probability": 0.352783203125
+        },
+        {
+          "word": "笨",
+          "start": 8.38,
+          "end": 8.6,
+          "probability": 0.5205078125
+        }
+      ]
+    }
+  ],
+  "method": {
+    "model": "mlx-community/whisper-large-v3-turbo",
+    "language": "zh",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "expected_text_supplied": false
+  },
+  "limitation": "Automatic local ASR, no expected dialogue supplied; not human listening or proof of absence of overlapping speech."
+}

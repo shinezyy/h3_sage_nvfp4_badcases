@@ -1,0 +1,29 @@
+{
+  "model": "MiniMaxAI/MiniMax-H3",
+  "prompt": "时长10秒。当前人物：黄色上衣男孩、珊瑚红上衣男孩、老师。黄色上衣男孩抱住小车，看向另一男孩；对方收回手，老师走近蹲下，车始终在黄色上衣男孩手中。\n画面：16:9，温暖简洁的2D幼儿卡通。严格沿用首尾参考图的人物、衣服、道具和位置；稳定中景，自然眨眼和轻微动作，无画面文字。\n声音：干净的普通话对白。下列时间全部从本段第0秒开始；角色名、时间和说明不发声。只有列出的对白可以被听见，每句只说一次，按顺序说完；每次只有指定角色说话，其余人物安静。没有旁白、背景人声、音乐、哼唱或音效。标为静音的时段完全无人说话，人物可以继续无声动作。\n唯一对白与发声时间：\n0.0–0.8秒：静音。\n0.8–5.8秒，黄色上衣男孩：不可以抢哦。这个是我先玩的。\n5.8–10.0秒：静音，其他人物始终不发声。\n",
+  "task": "fl2va",
+  "conditions": [
+    {
+      "type": "image",
+      "role": "keyframe",
+      "frame_index": 0,
+      "uri": "file:///cases/A02/first.png"
+    },
+    {
+      "type": "image",
+      "role": "keyframe",
+      "frame_index": -1,
+      "uri": "file:///cases/A02/last.png"
+    }
+  ],
+  "seconds": 10,
+  "target": {
+    "short_edge": 480,
+    "aspect_ratio": "16:9",
+    "duration_seconds": 10
+  },
+  "num_inference_steps": 50,
+  "flow_shift": 12,
+  "audio_flow_shift": 3,
+  "seed": 20261028
+}

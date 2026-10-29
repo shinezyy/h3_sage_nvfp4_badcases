@@ -1,0 +1,306 @@
+{
+  "expected": "老师：对哦，要先来后到。等他玩一下，再轮到你。\n同学A：好，那我等一等。",
+  "transcript": "对哦,不可以抢,先来后抢,先来后抢对哦,要先来后到,等它玩一下,再轮到你好,那我等一等",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.48,
+      "text": "对哦,不可以抢,先来后抢,先来后抢",
+      "tokens": [
+        50365,
+        8713,
+        14659,
+        11,
+        1960,
+        6723,
+        7235,
+        95,
+        11,
+        10108,
+        6912,
+        13547,
+        7235,
+        95,
+        11,
+        10108,
+        6912,
+        13547,
+        7235,
+        95,
+        50619
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.24333686095017654,
+      "compression_ratio": 1.1616161616161615,
+      "no_speech_prob": 1.0988906833098167e-11,
+      "words": [
+        {
+          "word": "对",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "哦,",
+          "start": 0.8,
+          "end": 1.12,
+          "probability": 0.94189453125
+        },
+        {
+          "word": "不",
+          "start": 1.44,
+          "end": 1.56,
+          "probability": 0.9931640625
+        },
+        {
+          "word": "可以",
+          "start": 1.56,
+          "end": 2.0,
+          "probability": 0.994140625
+        },
+        {
+          "word": "抢,",
+          "start": 2.0,
+          "end": 2.5,
+          "probability": 0.98291015625
+        },
+        {
+          "word": "先",
+          "start": 2.98,
+          "end": 3.12,
+          "probability": 0.99560546875
+        },
+        {
+          "word": "来",
+          "start": 3.12,
+          "end": 3.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "后",
+          "start": 3.34,
+          "end": 3.66,
+          "probability": 0.9736328125
+        },
+        {
+          "word": "抢,",
+          "start": 3.66,
+          "end": 3.9,
+          "probability": 0.9462890625
+        },
+        {
+          "word": "先",
+          "start": 4.02,
+          "end": 4.18,
+          "probability": 0.149658203125
+        },
+        {
+          "word": "来",
+          "start": 4.18,
+          "end": 4.18,
+          "probability": 0.440673828125
+        },
+        {
+          "word": "后",
+          "start": 4.18,
+          "end": 4.46,
+          "probability": 0.736328125
+        },
+        {
+          "word": "抢",
+          "start": 4.46,
+          "end": 4.48,
+          "probability": 0.755859375
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.48,
+      "end": 10.48,
+      "text": "对哦,要先来后到,等它玩一下,再轮到你",
+      "tokens": [
+        50619,
+        8713,
+        14659,
+        11,
+        4275,
+        10108,
+        6912,
+        13547,
+        4511,
+        11,
+        10187,
+        11284,
+        19912,
+        8861,
+        11,
+        8623,
+        17819,
+        106,
+        4511,
+        2166,
+        50896
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.24333686095017654,
+      "compression_ratio": 1.1616161616161615,
+      "no_speech_prob": 1.0988906833098167e-11,
+      "words": [
+        {
+          "word": "对",
+          "start": 4.48,
+          "end": 4.98,
+          "probability": 0.09820556640625
+        },
+        {
+          "word": "哦,",
+          "start": 4.98,
+          "end": 6.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "要",
+          "start": 6.64,
+          "end": 6.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "先",
+          "start": 6.86,
+          "end": 7.26,
+          "probability": 1.0
+        },
+        {
+          "word": "来",
+          "start": 7.26,
+          "end": 7.5,
+          "probability": 1.0
+        },
+        {
+          "word": "后",
+          "start": 7.5,
+          "end": 7.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "到,",
+          "start": 7.74,
+          "end": 7.94,
+          "probability": 0.791015625
+        },
+        {
+          "word": "等",
+          "start": 8.46,
+          "end": 8.56,
+          "probability": 0.99853515625
+        },
+        {
+          "word": "它",
+          "start": 8.56,
+          "end": 8.72,
+          "probability": 0.625
+        },
+        {
+          "word": "玩",
+          "start": 8.72,
+          "end": 8.94,
+          "probability": 1.0
+        },
+        {
+          "word": "一下,",
+          "start": 8.94,
+          "end": 9.38,
+          "probability": 0.94873046875
+        },
+        {
+          "word": "再",
+          "start": 9.64,
+          "end": 9.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "轮",
+          "start": 9.8,
+          "end": 9.98,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "到",
+          "start": 9.98,
+          "end": 10.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "你",
+          "start": 10.18,
+          "end": 10.48,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.18,
+      "end": 13.3,
+      "text": "好,那我等一等",
+      "tokens": [
+        50896,
+        2131,
+        11,
+        4184,
+        1654,
+        10187,
+        2257,
+        10187,
+        51032
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.24333686095017654,
+      "compression_ratio": 1.1616161616161615,
+      "no_speech_prob": 1.0988906833098167e-11,
+      "words": [
+        {
+          "word": "好,",
+          "start": 11.18,
+          "end": 11.68,
+          "probability": 0.98779296875
+        },
+        {
+          "word": "那",
+          "start": 12.06,
+          "end": 12.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "我",
+          "start": 12.3,
+          "end": 12.56,
+          "probability": 1.0
+        },
+        {
+          "word": "等",
+          "start": 12.56,
+          "end": 12.84,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "一",
+          "start": 12.84,
+          "end": 13.06,
+          "probability": 1.0
+        },
+        {
+          "word": "等",
+          "start": 13.06,
+          "end": 13.3,
+          "probability": 1.0
+        }
+      ]
+    }
+  ]
+}

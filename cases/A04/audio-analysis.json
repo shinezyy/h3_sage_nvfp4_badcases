@@ -1,0 +1,253 @@
+{
+  "expected": "老师：对哦，要先来后到。等他玩一下，再轮到你。\n同学A：好，那我等一等。",
+  "transcript": "对哦,要先来后到,等它玩一下再轮到你好,那等一等好,那我等一等",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.02,
+      "text": "对哦,要先来后到,等它玩一下再轮到你",
+      "tokens": [
+        50365,
+        8713,
+        14659,
+        11,
+        4275,
+        10108,
+        6912,
+        13547,
+        4511,
+        11,
+        10187,
+        11284,
+        19912,
+        8861,
+        8623,
+        17819,
+        106,
+        4511,
+        2166,
+        50623
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18868517875671387,
+      "compression_ratio": 1.0493827160493827,
+      "no_speech_prob": 8.015704419661596e-12,
+      "words": [
+        {
+          "word": "对",
+          "start": 0.0,
+          "end": 0.7,
+          "probability": 0.9853515625
+        },
+        {
+          "word": "哦,",
+          "start": 0.7,
+          "end": 1.0,
+          "probability": 0.9775390625
+        },
+        {
+          "word": "要",
+          "start": 1.3,
+          "end": 1.48,
+          "probability": 0.99365234375
+        },
+        {
+          "word": "先",
+          "start": 1.48,
+          "end": 1.7,
+          "probability": 1.0
+        },
+        {
+          "word": "来",
+          "start": 1.7,
+          "end": 1.9,
+          "probability": 1.0
+        },
+        {
+          "word": "后",
+          "start": 1.9,
+          "end": 2.12,
+          "probability": 0.95458984375
+        },
+        {
+          "word": "到,",
+          "start": 2.12,
+          "end": 2.34,
+          "probability": 0.880859375
+        },
+        {
+          "word": "等",
+          "start": 2.54,
+          "end": 3.08,
+          "probability": 0.99755859375
+        },
+        {
+          "word": "它",
+          "start": 3.08,
+          "end": 3.28,
+          "probability": 0.435791015625
+        },
+        {
+          "word": "玩",
+          "start": 3.28,
+          "end": 3.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一下",
+          "start": 3.48,
+          "end": 3.88,
+          "probability": 0.97607421875
+        },
+        {
+          "word": "再",
+          "start": 3.88,
+          "end": 4.28,
+          "probability": 0.82177734375
+        },
+        {
+          "word": "轮",
+          "start": 4.28,
+          "end": 4.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "到",
+          "start": 4.48,
+          "end": 4.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "你",
+          "start": 4.7,
+          "end": 5.02,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.220000000000001,
+      "end": 8.72,
+      "text": "好,那等一等",
+      "tokens": [
+        50623,
+        2131,
+        11,
+        4184,
+        10187,
+        2257,
+        10187,
+        50803
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18868517875671387,
+      "compression_ratio": 1.0493827160493827,
+      "no_speech_prob": 8.015704419661596e-12,
+      "words": [
+        {
+          "word": "好,",
+          "start": 6.220000000000001,
+          "end": 6.88,
+          "probability": 0.396728515625
+        },
+        {
+          "word": "那",
+          "start": 7.34,
+          "end": 7.68,
+          "probability": 0.94775390625
+        },
+        {
+          "word": "等",
+          "start": 7.68,
+          "end": 7.96,
+          "probability": 0.96337890625
+        },
+        {
+          "word": "一",
+          "start": 7.96,
+          "end": 8.26,
+          "probability": 1.0
+        },
+        {
+          "word": "等",
+          "start": 8.26,
+          "end": 8.72,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.72,
+      "end": 12.86,
+      "text": "好,那我等一等",
+      "tokens": [
+        50803,
+        2131,
+        11,
+        4184,
+        1654,
+        10187,
+        2257,
+        10187,
+        51011
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.18868517875671387,
+      "compression_ratio": 1.0493827160493827,
+      "no_speech_prob": 8.015704419661596e-12,
+      "words": [
+        {
+          "word": "好,",
+          "start": 8.72,
+          "end": 10.02,
+          "probability": 0.98828125
+        },
+        {
+          "word": "那",
+          "start": 10.6,
+          "end": 10.94,
+          "probability": 0.98046875
+        },
+        {
+          "word": "我",
+          "start": 10.94,
+          "end": 11.58,
+          "probability": 0.9599609375
+        },
+        {
+          "word": "等",
+          "start": 11.58,
+          "end": 12.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "一",
+          "start": 12.06,
+          "end": 12.46,
+          "probability": 1.0
+        },
+        {
+          "word": "等",
+          "start": 12.46,
+          "end": 12.86,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "method": {
+    "model": "mlx-community/whisper-large-v3-turbo",
+    "language": "zh",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "expected_text_supplied": false
+  },
+  "limitation": "Automatic local ASR, no expected dialogue supplied; not human listening or proof of absence of overlapping speech."
+}
