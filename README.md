@@ -1,11 +1,22 @@
 # h3_sage_nvfp4_badcases
 
-Two MiniMax-H3 FL2VA audio failure cases with SageAttention + NVFP4, **Cache-DiT disabled**. These are artifacts from the simplified-prompt experiment, not evidence that SageAttention or NVFP4 caused the failures.
+Three previously problematic MiniMax-H3 FL2VA clips with SageAttention + NVFP4, **Cache-DiT disabled**, tracking both original and simplified prompts. A02 and A04 still exhibit audio failures; B06 improved in the simplified-prompt trial. These artifacts do not establish that SageAttention or NVFP4 caused the failures.
 
 | Case | Duration requested | Observed problem | Exact prompt |
 |---|---:|---|---|
 | [A02](cases/A02/) | 10 s | Extra speech-like content after correct dialogue; silence instruction not followed | [prompt.txt](cases/A02/prompt.txt) |
 | [A04](cases/A04/) | 13 s | Child reply repeated; speaking windows not strictly followed | [prompt.txt](cases/A04/prompt.txt) |
+| [B06](cases/B06/) | 10 s | Baseline has an extra introduction; simplified output contains only intended dialogue in ASR | [prompt.txt](cases/B06/prompt.txt) |
+
+## Video downloads
+
+| Clip | Original problematic video | Simplified-prompt video |
+|---|---|---|
+| A02 | [MP4](cases/A02/baseline/output.mp4) | [MP4](cases/A02/output.mp4) |
+| A04 | [MP4](cases/A04/baseline/output.mp4) | [MP4](cases/A04/output.mp4) |
+| B06 | [MP4](cases/B06/baseline/output.mp4) | [MP4](cases/B06/output.mp4) |
+
+These are the earlier generated clips. The later shortened/resegmented storyboard has not yet been generated.
 
 Each case tracks the exact UTF-8 prompt, first/last PNG keyframes, actual generated MP4, request parameters, SHA-256, timing, and automatic audio transcription. `baseline/` preserves the earlier longer prompt and video for comparison. Only image URIs in `request.json` were rewritten to portable container paths; prompt and other request parameters are unchanged. Output bytes are unchanged. Model weights and container layers are not included.
 
@@ -28,6 +39,7 @@ docker run --rm --init --gpus device=0 --shm-size=16g \
 python3 reproduction/reproduce.py A02
 python3 reproduction/reproduce.py A02 --submit
 python3 reproduction/reproduce.py A04 --submit
+python3 reproduction/reproduce.py B06 --submit
 ```
 
 The server startup downloads only base configs/tokenizers and four selected component weights. Keep the local base directory name `MiniMax-H3`; this name is required for native pipeline detection in the observed image. Requests omit `quality`. Inputs are keyframes at indices 0 and -1. Defaults: 480 short edge, 16:9, 50 steps, seed 20261028, flow shift 12, audio flow shift 3.

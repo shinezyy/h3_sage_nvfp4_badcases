@@ -1,0 +1,152 @@
+{
+  "expected": "妈妈：你觉得老师太严厉了，是吗？\n主角：嗯，我不舒服。",
+  "transcript": "你觉得老师太严厉了,是吗?嗯,我不舒服",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.3600000000000003,
+      "end": 5.04,
+      "text": "你觉得老师太严厉了,是吗?",
+      "tokens": [
+        50365,
+        2166,
+        29992,
+        10439,
+        29186,
+        9455,
+        940,
+        98,
+        5014,
+        231,
+        2289,
+        11,
+        1541,
+        14769,
+        30,
+        50619
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23758602142333984,
+      "compression_ratio": 0.8225806451612904,
+      "no_speech_prob": 9.294728181563627e-12,
+      "words": [
+        {
+          "word": "你",
+          "start": 1.3600000000000003,
+          "end": 2.08,
+          "probability": 0.466552734375
+        },
+        {
+          "word": "觉得",
+          "start": 2.08,
+          "end": 2.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "老",
+          "start": 2.44,
+          "end": 2.92,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "师",
+          "start": 2.92,
+          "end": 3.12,
+          "probability": 0.9140625
+        },
+        {
+          "word": "太",
+          "start": 3.12,
+          "end": 3.34,
+          "probability": 1.0
+        },
+        {
+          "word": "严",
+          "start": 3.34,
+          "end": 3.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "厉",
+          "start": 3.58,
+          "end": 3.78,
+          "probability": 0.984375
+        },
+        {
+          "word": "了,",
+          "start": 3.78,
+          "end": 4.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "是",
+          "start": 4.26,
+          "end": 4.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "吗?",
+          "start": 4.8,
+          "end": 5.04,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.68,
+      "end": 8.7,
+      "text": "嗯,我不舒服",
+      "tokens": [
+        50699,
+        21206,
+        11,
+        25395,
+        46204,
+        27408,
+        50803
+      ],
+      "temperature": 0,
+      "avg_logprob": -0.23758602142333984,
+      "compression_ratio": 0.8225806451612904,
+      "no_speech_prob": 9.294728181563627e-12,
+      "words": [
+        {
+          "word": "嗯,",
+          "start": 6.52,
+          "end": 6.88,
+          "probability": 0.58837890625
+        },
+        {
+          "word": "我不",
+          "start": 7.44,
+          "end": 7.92,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "舒",
+          "start": 7.92,
+          "end": 8.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "服",
+          "start": 8.26,
+          "end": 8.7,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "method": {
+    "model": "mlx-community/whisper-large-v3-turbo",
+    "language": "zh",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "expected_text_supplied": false
+  },
+  "limitation": "Automatic local ASR, no expected dialogue supplied; not human listening or proof of absence of overlapping speech."
+}

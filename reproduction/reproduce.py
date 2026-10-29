@@ -3,7 +3,7 @@
 import argparse,hashlib,json,time,urllib.request,urllib.parse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser(description=__doc__);p.add_argument('case',choices=['A02','A04']);p.add_argument('--submit',action='store_true');p.add_argument('--base-url',default='http://127.0.0.1:30010');p.add_argument('--run-dir');a=p.parse_args()
+p=argparse.ArgumentParser(description=__doc__);p.add_argument('case',choices=['A02','A04','B06']);p.add_argument('--submit',action='store_true');p.add_argument('--base-url',default='http://127.0.0.1:30010');p.add_argument('--run-dir');a=p.parse_args()
 request=json.loads((ROOT/'cases'/a.case/'request.json').read_text())
 assert request['prompt']==(ROOT/'cases'/a.case/'prompt.txt').read_text()
 if not a.submit:print(json.dumps(request,ensure_ascii=False,indent=2));raise SystemExit(0)
