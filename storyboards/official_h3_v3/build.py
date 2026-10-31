@@ -184,7 +184,7 @@ def main():
         assert digest(ROOT / path) == sha
     save(ROOT / 'validation.json', {'status': 'offline_passed', 'clips': len(jobs), 'original_segments_covered_once_in_order': len(sources), 'total_seconds': sum(j['seconds'] for j in jobs), 'all_original_dialogue_and_punctuation_verbatim': True, 'all_fields_and_speaker_tags_valid': True, 'all_frame_paths_and_settings_unchanged': True, 'punctuation_restorations_from_v2': changes, 'checks_by_clip': records, 'input_and_prompt_sha256': hashes, 'inference_performed': False})
     with (ROOT / 'mapping.csv').open('w') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['id', 'source_ids', 'seconds', 'first_frame', 'last_frame', 'prompt'])
         for s in segments:
             writer.writerow([s['id'], '+'.join(s['source_ids']), s['seconds'], s['first_frame'], s['last_frame'], s['prompt_file']])
