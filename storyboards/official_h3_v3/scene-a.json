@@ -1,0 +1,95 @@
+{
+  "RP01": {
+    "opening": "2D-animated in the soft pastel colors and rounded character design of Picture 1. A medium-wide exterior view frames the short-haired boy in a yellow top and teal trousers walking toward the sunny kindergarten entrance with his coral backpack. The camera holds a static shot, preserving the building, path and trees in the reference.",
+    "beats": ["The boy takes small, unhurried steps toward the entrance while the narrator speaks; his lips stay closed."],
+    "second_shot_opening": "a static medium-wide view inside the classroom, with the same boy standing centrally between the toy shelves and low tables. He has no backpack in this interior shot, as in Picture 2, and quietly turns his attention toward the camera while the narration continues.",
+    "ending": "The boy finishes turning toward the camera, relaxes his arms and settles into the small smile, full-body pose and central classroom composition of Picture 2."
+  },
+  "RA01": {
+    "opening": "2D-animated in soft pastel colors. A static child-eye-level medium-wide shot begins exactly as Picture 1: the yellow-shirted boy sits on the left of a mint floor mat holding a red toy car, and the coral-shirted boy stands to his right. Toy shelves and low classroom furniture remain fixed behind them.",
+    "beats": [
+      "The seated boy looks down at the car and gently adjusts his grip while the other boy watches; both keep their lips closed during the narration.",
+      "The coral-shirted boy bends his knees and leans toward the car with an open hand, speaking eagerly without grabbing it.",
+      "The yellow-shirted boy draws the car toward his chest, looks directly at the other boy and answers calmly but firmly. The other boy withdraws his hand and sits back; the teacher approaches from behind and lowers herself beside them."
+    ],
+    "ending": "The teacher finishes crouching behind the two seated boys, and the coral-shirted boy rests his withdrawn hands near his lap. The yellow-shirted boy still holds the same car as their spacing and expressions settle into Picture 2."
+  },
+  "RA03": {
+    "opening": "2D-animated in soft pastel colors. A static medium-wide shot matches Picture 1: the yellow-shirted boy sits left holding the red toy car, the coral-shirted boy sits right with his hands withdrawn, and the mint-cardigan teacher crouches behind them on the classroom mat.",
+    "beats": [
+      "The yellow-shirted boy keeps the car close, briefly glances toward the teacher and then looks back at the other boy. All three keep their lips closed during the narration.",
+      "The yellow-shirted boy lifts his chin slightly and states the rule clearly. The coral-shirted boy listens without reaching forward, and the teacher gives a small approving nod."
+    ],
+    "ending": "The small head movements settle, with the car still in the yellow-shirted boy's hands. All three return to the calm poses and unchanged spacing of Picture 2."
+  },
+  "RA04": {
+    "opening": "2D-animated in soft pastel colors. A static medium-wide shot starts in the arrangement of Picture 1: the teacher crouches behind the yellow-shirted boy on the left and the coral-shirted boy on the right; the yellow-shirted boy holds the red toy car on the mint mat.",
+    "beats": [
+      "The teacher looks between the two boys and explains gently at their eye level. Her shoulders remain relaxed; both boys listen with closed mouths.",
+      "The coral-shirted boy nods once and answers in an agreeable, unhurried voice, then rests his hands in his lap. The yellow-shirted boy relaxes into a small smile while keeping possession of the car."
+    ],
+    "ending": "The teacher smiles and the boys settle comfortably on the mat, matching Picture 2. The red car remains held by the yellow-shirted boy rather than being transferred or placed out of view."
+  },
+  "RA05": {
+    "opening": "2D-animated in soft pastel colors. A static medium shot matches Picture 1 at the low puzzle table: the yellow-shirted boy sits on the left, the purple-shirted girl sits close on the right with her arm extended across the large colorful puzzle pieces, and the teacher is visible behind them.",
+    "beats": [
+      "The girl leans a little closer to the puzzle. The boy tightens his shoulders, glances at her arm and shifts his elbow inward to make room, showing mild discomfort without pushing her. All visible mouths stay closed during the narration."
+    ],
+    "ending": "Their small movements ease back into the close seating and unfinished-puzzle arrangement of Picture 2, with the girl's hand still near the pieces and the boy looking uncomfortable."
+  },
+  "RA06": {
+    "opening": "2D-animated in soft pastel colors. A static medium shot begins at the puzzle table in Picture 1, with the yellow-shirted boy on the left, the purple-shirted girl leaning close from the right, and the teacher watching behind them.",
+    "beats": [
+      "The boy turns toward the girl and expresses his boundary with a hesitant beginning followed by a clearer second sentence. He keeps his hands near his own puzzle pieces rather than pushing her away.",
+      "The girl withdraws her reaching arm, shifts her chair a short distance to the right and answers while looking at him. She then places her hands in her lap.",
+      "The teacher nods and praises the boy in a gentle voice. His shoulders lower and he gives a small, relieved smile while the girl waits quietly."
+    ],
+    "ending": "The girl finishes moving into the comfortable right-hand seating position shown in Picture 2. The boy remains beside the same puzzle, with the teacher behind them and the table layout unchanged."
+  },
+  "RA08": {
+    "opening": "2D-animated in soft pastel colors. A static medium-wide shot starts from Picture 1 in the block corner: the yellow-shirted boy sits left beside the colorful blocks, the coral-shirted boy sits right with his hands close to his lap, and the teacher watches from behind.",
+    "beats": [
+      "The coral-shirted boy looks toward the yellow-shirted boy and asks politely, keeping his hands away from the other boy's blocks until he receives a response.",
+      "The yellow-shirted boy nods and answers with a welcoming smile. The coral-shirted boy then picks up a blue block and extends it toward him while the yellow-shirted boy positions a yellow block on the tower."
+    ],
+    "ending": "Their hands converge on the cooperative building positions in Picture 2, with the blue block offered from the right and the tower and small house visible between them. The teacher remains behind, smiling."
+  },
+  "RA09": {
+    "opening": "2D-animated in soft pastel colors. A static medium-wide shot matches Picture 1 in the block corner: the yellow-shirted boy is seated left at the tower, the coral-shirted boy sits right holding out a blue block, and the teacher smiles behind the two children. The existing tower and little house retain their reference shapes.",
+    "beats": [
+      "The boys exchange attentive looks and make small adjustments to the blocks already in their hands, showing how they coordinate the work. They keep their lips closed during the narration.",
+      "The teacher looks first at the tower and then at the little house as she praises their work. The boys look up toward her, then back at their buildings, smiling without adding any speech."
+    ],
+    "ending": "The boys return their hands to the offered-blue-block and tower-building positions of Picture 2. The completed structures, seated spacing and teacher's position remain consistent."
+  },
+  "RA11": {
+    "opening": "2D-animated in soft pastel colors. A static wide shot begins as Picture 1 in the activity area: a small blue padded trampoline stands between the yellow-shirted boy on the left and the purple-shirted girl on the right. Both are on the floor, and the teacher stands nearby to supervise.",
+    "beats": [
+      "As the children begin stepping toward the trampoline, the teacher gently raises an open hand and explains the rule. The girl stops on the right while the boy steps carefully onto the trampoline and takes its support bar with both hands.",
+      "Standing alone on the trampoline, the boy turns his head toward the waiting girl and speaks with a relaxed, matter-of-fact delivery. He keeps both hands on the bar.",
+      "The girl nods and responds from her place on the floor. The boy makes one small controlled bounce and settles his feet while she stays safely outside the trampoline."
+    ],
+    "ending": "The boy comes to rest alone on the trampoline with both hands on the bar, the girl waits to the right and the teacher stands to the left, converging to the arrangement of Picture 2."
+  },
+  "RA13": {
+    "opening": "2D-animated in soft pastel colors. A static wide shot matches Picture 1: the yellow-shirted boy stands alone on the blue single-child trampoline holding its support bar, the purple-shirted girl waits on the floor to the right, and the teacher supervises from the left.",
+    "beats": [
+      "The boy makes a few low, controlled bounces without releasing the support bar. The girl remains outside the trampoline at a comfortable distance, and the teacher follows his movement with her eyes. Everyone on screen keeps their lips closed during the narration."
+    ],
+    "ending": "The boy reduces the bouncing until both feet are still, returning to the standing pose in Picture 2. The teacher and waiting girl keep their original positions."
+  },
+  "RA14": {
+    "opening": "2D-animated entirely in black, white and gray, with the soft cloud-shaped vignette border of Picture 1. A static wide shot frames the two children standing together on the small trampoline in a simplified activity area. No teacher is present.",
+    "beats": [
+      "The children make a small bounce together, drift toward each other and lightly bump their foreheads. They stop, carefully step down onto the adjacent soft mat and sit. Each places a hand against their own forehead, with a small tear and a disappointed expression. The bump and tearful reactions remain silent beneath the narration, without a fall, bruising or injury marks."
+    ],
+    "ending": "Their seated bodies settle beside the trampoline into the positions of Picture 2, each touching their own forehead. The entire scene and its cloud-shaped border remain grayscale through the final frame."
+  },
+  "RA15": {
+    "opening": "2D-animated in the full soft colors of Picture 1. A static wide shot frames the purple-shirted girl alone on the blue trampoline, holding its support bar. The yellow-shirted boy waits on the floor to the left, with the teacher supervising beside him.",
+    "beats": [
+      "The girl makes a small controlled bounce while keeping both hands on the bar. The boy watches from the floor without approaching, and the teacher follows the girl with her eyes. All visible mouths remain closed during the narration."
+    ],
+    "ending": "The girl settles her feet on the trampoline, and everyone returns to the calm standing poses and spacing of Picture 2. The scene remains fully colored."
+  }
+}

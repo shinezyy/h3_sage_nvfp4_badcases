@@ -1,0 +1,31 @@
+{
+  "defaults": {
+    "short_edge": 480,
+    "aspect_ratio": "16:9",
+    "steps": 50,
+    "seed": 20261028
+  },
+  "jobs": [
+    {
+      "id": "RA01",
+      "prompt_file": "prompts/RA01.txt",
+      "first_frame": "../frames/F02.png",
+      "last_frame": "../frames/F04.png",
+      "seconds": 12
+    },
+    {
+      "id": "RA04",
+      "prompt_file": "prompts/RA04.txt",
+      "first_frame": "../frames/F04.png",
+      "last_frame": "../frames/F05.png",
+      "seconds": 9
+    },
+    {
+      "id": "RB06",
+      "prompt_file": "prompts/RB06.txt",
+      "first_frame": "../frames/F18.png",
+      "last_frame": "../frames/F19.png",
+      "seconds": 15
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+  "revision": "199b7d0e1fd95e7b3eafa8c15eca692534142427",
+  "skill_url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/199b7d0e1fd95e7b3eafa8c15eca692534142427/skills/h3-prompt-writing/SKILL.md",
+  "base_guide_url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/199b7d0e1fd95e7b3eafa8c15eca692534142427/skills/h3-prompt-writing/references/base-en.txt",
+  "retrieved_on": "2026-10-31",
+  "input_mode": "FL2VA",
+  "upstream_files_sha256": {
+    "upstream/h3-prompt-writing/SKILL.md": "732e5199e7325fde0b85ceee3ec2c1f47401af3f3cb2a8c36cc40f818d5e717b",
+    "upstream/h3-prompt-writing/references/base-en.txt": "8bb8dcbb7f8d434d13536abd2f9dba1f725a2603818080924d2ca50c942e6b58"
+  }
+}

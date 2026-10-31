@@ -1,0 +1,22 @@
+{
+  "mode": "offline_only_no_cloud_calls",
+  "scope": "bundled_public_repository_paths",
+  "reports": [
+    {
+      "manifest": "manifest.json",
+      "manifest_sha256": "0d3b6c104b3eb00e4145d64f73c65d80e3ccca034f11c5e318d9e6695ae65a94",
+      "batch_id": "kg-official-v3-public",
+      "validated_jobs": 31,
+      "cache_dit": false,
+      "dry_run_exit_code": 0
+    },
+    {
+      "manifest": "pilot-manifest.json",
+      "manifest_sha256": "e6f32fa0cbf06435838d8060f08b90f72391798f8133ef7671f9b30c724544e9",
+      "batch_id": "kg-official-v3-public-test",
+      "validated_jobs": 3,
+      "cache_dit": false,
+      "dry_run_exit_code": 0
+    }
+  ]
+}

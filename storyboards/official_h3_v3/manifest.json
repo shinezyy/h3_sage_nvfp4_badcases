@@ -1,0 +1,227 @@
+{
+  "defaults": {
+    "short_edge": 480,
+    "aspect_ratio": "16:9",
+    "steps": 50,
+    "seed": 20261028
+  },
+  "jobs": [
+    {
+      "id": "RP01",
+      "prompt_file": "prompts/RP01.txt",
+      "first_frame": "../frames/F00.png",
+      "last_frame": "../frames/F01.png",
+      "seconds": 11
+    },
+    {
+      "id": "RA01",
+      "prompt_file": "prompts/RA01.txt",
+      "first_frame": "../frames/F02.png",
+      "last_frame": "../frames/F04.png",
+      "seconds": 12
+    },
+    {
+      "id": "RA03",
+      "prompt_file": "prompts/RA03.txt",
+      "first_frame": "../frames/F04.png",
+      "last_frame": "../frames/F04.png",
+      "seconds": 9
+    },
+    {
+      "id": "RA04",
+      "prompt_file": "prompts/RA04.txt",
+      "first_frame": "../frames/F04.png",
+      "last_frame": "../frames/F05.png",
+      "seconds": 9
+    },
+    {
+      "id": "RA05",
+      "prompt_file": "prompts/RA05.txt",
+      "first_frame": "../frames/F06.png",
+      "last_frame": "../frames/F06.png",
+      "seconds": 9
+    },
+    {
+      "id": "RA06",
+      "prompt_file": "prompts/RA06.txt",
+      "first_frame": "../frames/F06.png",
+      "last_frame": "../frames/F07.png",
+      "seconds": 15
+    },
+    {
+      "id": "RA08",
+      "prompt_file": "prompts/RA08.txt",
+      "first_frame": "../frames/F08.png",
+      "last_frame": "../frames/F09.png",
+      "seconds": 7
+    },
+    {
+      "id": "RA09",
+      "prompt_file": "prompts/RA09.txt",
+      "first_frame": "../frames/F09.png",
+      "last_frame": "../frames/F09.png",
+      "seconds": 13
+    },
+    {
+      "id": "RA11",
+      "prompt_file": "prompts/RA11.txt",
+      "first_frame": "../frames/F10.png",
+      "last_frame": "../frames/F11.png",
+      "seconds": 13
+    },
+    {
+      "id": "RA13",
+      "prompt_file": "prompts/RA13.txt",
+      "first_frame": "../frames/F11.png",
+      "last_frame": "../frames/F11.png",
+      "seconds": 9
+    },
+    {
+      "id": "RA14",
+      "prompt_file": "prompts/RA14.txt",
+      "first_frame": "../frames/F12.png",
+      "last_frame": "../frames/F13.png",
+      "seconds": 9
+    },
+    {
+      "id": "RA15",
+      "prompt_file": "prompts/RA15.txt",
+      "first_frame": "../frames/F14.png",
+      "last_frame": "../frames/F14.png",
+      "seconds": 6
+    },
+    {
+      "id": "RB01",
+      "prompt_file": "prompts/RB01.txt",
+      "first_frame": "../frames/F15.png",
+      "last_frame": "../frames/F16.png",
+      "seconds": 7
+    },
+    {
+      "id": "RB02",
+      "prompt_file": "prompts/RB02.txt",
+      "first_frame": "../frames/F16.png",
+      "last_frame": "../frames/F16.png",
+      "seconds": 11
+    },
+    {
+      "id": "RB04",
+      "prompt_file": "prompts/RB04.txt",
+      "first_frame": "../frames/F17.png",
+      "last_frame": "../frames/F18.png",
+      "seconds": 12
+    },
+    {
+      "id": "RB06",
+      "prompt_file": "prompts/RB06.txt",
+      "first_frame": "../frames/F18.png",
+      "last_frame": "../frames/F19.png",
+      "seconds": 15
+    },
+    {
+      "id": "RB08",
+      "prompt_file": "prompts/RB08.txt",
+      "first_frame": "../frames/F20.png",
+      "last_frame": "../frames/F20.png",
+      "seconds": 10
+    },
+    {
+      "id": "RB09",
+      "prompt_file": "prompts/RB09.txt",
+      "first_frame": "../frames/F20.png",
+      "last_frame": "../frames/F21.png",
+      "seconds": 11
+    },
+    {
+      "id": "RB10",
+      "prompt_file": "prompts/RB10.txt",
+      "first_frame": "../frames/F21.png",
+      "last_frame": "../frames/F21.png",
+      "seconds": 8
+    },
+    {
+      "id": "RC01",
+      "prompt_file": "prompts/RC01.txt",
+      "first_frame": "../frames/F22.png",
+      "last_frame": "../frames/F23.png",
+      "seconds": 11
+    },
+    {
+      "id": "RC03",
+      "prompt_file": "prompts/RC03.txt",
+      "first_frame": "../frames/F24.png",
+      "last_frame": "../frames/F25.png",
+      "seconds": 6
+    },
+    {
+      "id": "RC04",
+      "prompt_file": "prompts/RC04.txt",
+      "first_frame": "../frames/F11.png",
+      "last_frame": "../frames/F11.png",
+      "seconds": 7
+    },
+    {
+      "id": "RC05",
+      "prompt_file": "prompts/RC05.txt",
+      "first_frame": "../frames/F26.png",
+      "last_frame": "../frames/F27.png",
+      "seconds": 12
+    },
+    {
+      "id": "RC07",
+      "prompt_file": "prompts/RC07.txt",
+      "first_frame": "../frames/F27.png",
+      "last_frame": "../frames/F28.png",
+      "seconds": 13
+    },
+    {
+      "id": "RC09",
+      "prompt_file": "prompts/RC09.txt",
+      "first_frame": "../frames/F28.png",
+      "last_frame": "../frames/F29.png",
+      "seconds": 9
+    },
+    {
+      "id": "RC10",
+      "prompt_file": "prompts/RC10.txt",
+      "first_frame": "../frames/F29.png",
+      "last_frame": "../frames/F30.png",
+      "seconds": 8
+    },
+    {
+      "id": "RC11",
+      "prompt_file": "prompts/RC11.txt",
+      "first_frame": "../frames/F30.png",
+      "last_frame": "../frames/F32.png",
+      "seconds": 12
+    },
+    {
+      "id": "RC13",
+      "prompt_file": "prompts/RC13.txt",
+      "first_frame": "../frames/F32.png",
+      "last_frame": "../frames/F32.png",
+      "seconds": 7
+    },
+    {
+      "id": "RE01",
+      "prompt_file": "prompts/RE01.txt",
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F33.png",
+      "seconds": 14
+    },
+    {
+      "id": "RE03",
+      "prompt_file": "prompts/RE03.txt",
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F33.png",
+      "seconds": 8
+    },
+    {
+      "id": "RE04",
+      "prompt_file": "prompts/RE04.txt",
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F34.png",
+      "seconds": 7
+    }
+  ]
+}

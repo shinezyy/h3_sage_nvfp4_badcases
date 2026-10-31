@@ -1,0 +1,1825 @@
+{
+  "status": "official_skill_rewrite_not_generated",
+  "stats": {
+    "source_clips": 44,
+    "revised_clips": 31,
+    "source_seconds": 498,
+    "revised_seconds": 310,
+    "saved_seconds": 188,
+    "reduction_percent": 37.8,
+    "all_spoken_characters_preserved": true,
+    "all_original_segments_covered_in_order": true,
+    "all_endpoints_reused": true,
+    "new_images": 0,
+    "runtime_validated": false
+  },
+  "skill_source": {
+    "repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+    "revision": "199b7d0e1fd95e7b3eafa8c15eca692534142427",
+    "skill_url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/199b7d0e1fd95e7b3eafa8c15eca692534142427/skills/h3-prompt-writing/SKILL.md",
+    "base_guide_url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/199b7d0e1fd95e7b3eafa8c15eca692534142427/skills/h3-prompt-writing/references/base-en.txt",
+    "retrieved_on": "2026-10-31",
+    "input_mode": "FL2VA",
+    "upstream_files_sha256": {
+      "upstream/h3-prompt-writing/SKILL.md": "732e5199e7325fde0b85ceee3ec2c1f47401af3f3cb2a8c36cc40f818d5e717b",
+      "upstream/h3-prompt-writing/references/base-en.txt": "8bb8dcbb7f8d434d13536abd2f9dba1f725a2603818080924d2ca50c942e6b58"
+    }
+  },
+  "speaker_ids": {
+    "旁白": "S1",
+    "主角": "S2",
+    "同学A": "S3",
+    "同学B": "S4",
+    "老师": "S5",
+    "妈妈": "S6"
+  },
+  "segments": [
+    {
+      "id": "RP01",
+      "source_ids": [
+        "P01"
+      ],
+      "act": "片头",
+      "seconds": 11,
+      "original_seconds": 14,
+      "timeline_start": 0,
+      "timeline_end": 11,
+      "first_frame": "../frames/F00.png",
+      "last_frame": "../frames/F01.png",
+      "internal_frames_not_conditioned": [],
+      "action": "男孩走进幼儿园，随旁白自然切到教室全景，微笑站定。旁白从开头开始，行走和说话同时进行。",
+      "cast": [
+        "主角"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "在幼儿园里，小朋友会和同学一起玩、一起学，也会遇到一些需要勇敢表达的时候。",
+          "sources": [
+            {
+              "segment": "P01",
+              "line": 1,
+              "text": "在幼儿园里，小朋友会和同学一起玩、一起学，也会遇到一些需要勇敢表达的时候。"
+            }
+          ],
+          "start": 0.25,
+          "end": 10.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.945,
+      "estimated_reading_seconds": 9.65,
+      "official_scene": {
+        "opening": "2D-animated in the soft pastel colors and rounded character design of Picture 1. A medium-wide exterior view frames the short-haired boy in a yellow top and teal trousers walking toward the sunny kindergarten entrance with his coral backpack. The camera holds a static shot, preserving the building, path and trees in the reference.",
+        "beats": [
+          "The boy takes small, unhurried steps toward the entrance while the narrator speaks; his lips stay closed."
+        ],
+        "second_shot_opening": "a static medium-wide view inside the classroom, with the same boy standing centrally between the toy shelves and low tables. He has no backpack in this interior shot, as in Picture 2, and quietly turns his attention toward the camera while the narration continues.",
+        "ending": "The boy finishes turning toward the camera, relaxes his arms and settles into the small smile, full-body pose and central classroom composition of Picture 2."
+      },
+      "prompt_file": "prompts/RP01.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA01",
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "act": "第一幕",
+      "seconds": 12,
+      "original_seconds": 20,
+      "timeline_start": 11,
+      "timeline_end": 23,
+      "first_frame": "../frames/F02.png",
+      "last_frame": "../frames/F04.png",
+      "internal_frames_not_conditioned": [
+        "F03"
+      ],
+      "action": "玩具区，主角坐在左侧玩红色小车。右侧男孩伸手要车，主角抱住小车回应；对方收手。老师随后从后方走近蹲下。",
+      "cast": [
+        "主角",
+        "同学A",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "在幼儿园里，不可以抢别人的玩具。",
+          "sources": [
+            {
+              "segment": "A01",
+              "line": 1,
+              "text": "在幼儿园里，不可以抢别人的玩具。"
+            }
+          ],
+          "start": 0.25,
+          "end": 4.66
+        },
+        {
+          "speaker": "同学A",
+          "text": "我也要玩！",
+          "sources": [
+            {
+              "segment": "A01",
+              "line": 2,
+              "text": "我也要玩！"
+            }
+          ],
+          "start": 4.91,
+          "end": 6.56
+        },
+        {
+          "speaker": "主角",
+          "text": "不可以抢哦。这个是我先玩的。",
+          "sources": [
+            {
+              "segment": "A02",
+              "line": 1,
+              "text": "不可以抢哦。这个是我先玩的。"
+            }
+          ],
+          "start": 6.81,
+          "end": 11.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.908,
+      "estimated_reading_seconds": 10.2,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static child-eye-level medium-wide shot begins exactly as Picture 1: the yellow-shirted boy sits on the left of a mint floor mat holding a red toy car, and the coral-shirted boy stands to his right. Toy shelves and low classroom furniture remain fixed behind them.",
+        "beats": [
+          "The seated boy looks down at the car and gently adjusts his grip while the other boy watches; both keep their lips closed during the narration.",
+          "The coral-shirted boy bends his knees and leans toward the car with an open hand, speaking eagerly without grabbing it.",
+          "The yellow-shirted boy draws the car toward his chest, looks directly at the other boy and answers calmly but firmly. The other boy withdraws his hand and sits back; the teacher approaches from behind and lowers herself beside them."
+        ],
+        "ending": "The teacher finishes crouching behind the two seated boys, and the coral-shirted boy rests his withdrawn hands near his lap. The yellow-shirted boy still holds the same car as their spacing and expressions settle into Picture 2."
+      },
+      "prompt_file": "prompts/RA01.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA03",
+      "source_ids": [
+        "A03"
+      ],
+      "act": "第一幕",
+      "seconds": 9,
+      "original_seconds": 13,
+      "timeline_start": 23,
+      "timeline_end": 32,
+      "first_frame": "../frames/F04.png",
+      "last_frame": "../frames/F04.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一玩具区。主角抱住红色小车，先听旁白，再看向右侧男孩说话；老师在后方安静倾听。",
+      "cast": [
+        "主角",
+        "同学A",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "如果别人来抢自己的玩具，可以勇敢地说‘不’。",
+          "sources": [
+            {
+              "segment": "A03",
+              "line": 1,
+              "text": "如果别人来抢自己的玩具，可以勇敢地说‘不’。"
+            }
+          ],
+          "start": 0.25,
+          "end": 5.16
+        },
+        {
+          "speaker": "主角",
+          "text": "不可以抢。要先来后到。",
+          "sources": [
+            {
+              "segment": "A03",
+              "line": 2,
+              "text": "不可以抢。要先来后到。"
+            }
+          ],
+          "start": 5.41,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.906,
+      "estimated_reading_seconds": 8.69,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium-wide shot matches Picture 1: the yellow-shirted boy sits left holding the red toy car, the coral-shirted boy sits right with his hands withdrawn, and the mint-cardigan teacher crouches behind them on the classroom mat.",
+        "beats": [
+          "The yellow-shirted boy keeps the car close, briefly glances toward the teacher and then looks back at the other boy. All three keep their lips closed during the narration.",
+          "The yellow-shirted boy lifts his chin slightly and states the rule clearly. The coral-shirted boy listens without reaching forward, and the teacher gives a small approving nod."
+        ],
+        "ending": "The small head movements settle, with the car still in the yellow-shirted boy's hands. All three return to the calm poses and unchanged spacing of Picture 2."
+      },
+      "prompt_file": "prompts/RA03.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA04",
+      "source_ids": [
+        "A04"
+      ],
+      "act": "第一幕",
+      "seconds": 9,
+      "original_seconds": 13,
+      "timeline_start": 32,
+      "timeline_end": 41,
+      "first_frame": "../frames/F04.png",
+      "last_frame": "../frames/F05.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一玩具区。老师蹲着温和解释，右侧男孩点头回应；主角放松，继续持有红色小车。",
+      "cast": [
+        "主角",
+        "同学A",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "老师",
+          "text": "对哦，要先来后到。等他玩一下，再轮到你。",
+          "sources": [
+            {
+              "segment": "A04",
+              "line": 1,
+              "text": "对哦，要先来后到。等他玩一下，再轮到你。"
+            }
+          ],
+          "start": 0.25,
+          "end": 5.88
+        },
+        {
+          "speaker": "同学A",
+          "text": "好，那我等一等。",
+          "sources": [
+            {
+              "segment": "A04",
+              "line": 2,
+              "text": "好，那我等一等。"
+            }
+          ],
+          "start": 6.13,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.906,
+      "estimated_reading_seconds": 7.71,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium-wide shot starts in the arrangement of Picture 1: the teacher crouches behind the yellow-shirted boy on the left and the coral-shirted boy on the right; the yellow-shirted boy holds the red toy car on the mint mat.",
+        "beats": [
+          "The teacher looks between the two boys and explains gently at their eye level. Her shoulders remain relaxed; both boys listen with closed mouths.",
+          "The coral-shirted boy nods once and answers in an agreeable, unhurried voice, then rests his hands in his lap. The yellow-shirted boy relaxes into a small smile while keeping possession of the car."
+        ],
+        "ending": "The teacher smiles and the boys settle comfortably on the mat, matching Picture 2. The red car remains held by the yellow-shirted boy rather than being transferred or placed out of view."
+      },
+      "prompt_file": "prompts/RA04.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA05",
+      "source_ids": [
+        "A05"
+      ],
+      "act": "第一幕",
+      "seconds": 9,
+      "original_seconds": 13,
+      "timeline_start": 41,
+      "timeline_end": 50,
+      "first_frame": "../frames/F06.png",
+      "last_frame": "../frames/F06.png",
+      "internal_frames_not_conditioned": [],
+      "action": "拼图桌前，右侧女孩靠得太近并伸手，左侧男孩缩肩、显得不舒服。老师在后方。旁白与动作同时进行。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "如果你正在玩，别人突然挤过来，让你不舒服，也可以说出来。",
+          "sources": [
+            {
+              "segment": "A05",
+              "line": 1,
+              "text": "如果你正在玩，别人突然挤过来，让你不舒服，也可以说出来。"
+            }
+          ],
+          "start": 0.25,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.933,
+      "estimated_reading_seconds": 7.15,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium shot matches Picture 1 at the low puzzle table: the yellow-shirted boy sits on the left, the purple-shirted girl sits close on the right with her arm extended across the large colorful puzzle pieces, and the teacher is visible behind them.",
+        "beats": [
+          "The girl leans a little closer to the puzzle. The boy tightens his shoulders, glances at her arm and shifts his elbow inward to make room, showing mild discomfort without pushing her. All visible mouths stay closed during the narration."
+        ],
+        "ending": "Their small movements ease back into the close seating and unfinished-puzzle arrangement of Picture 2, with the girl's hand still near the pieces and the boy looking uncomfortable."
+      },
+      "prompt_file": "prompts/RA05.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA06",
+      "source_ids": [
+        "A06",
+        "A07"
+      ],
+      "act": "第一幕",
+      "seconds": 15,
+      "original_seconds": 23,
+      "timeline_start": 50,
+      "timeline_end": 65,
+      "first_frame": "../frames/F06.png",
+      "last_frame": "../frames/F07.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一拼图桌。男孩看向女孩表达不舒服；女孩收手、把椅子向右移开并回应。老师接着点头鼓励，男孩放松微笑。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "主角",
+          "text": "你、你不要挤我。我现在在玩，先来后到。",
+          "sources": [
+            {
+              "segment": "A06",
+              "line": 1,
+              "text": "你、你不要挤我。"
+            },
+            {
+              "segment": "A06",
+              "line": 2,
+              "text": "我现在在玩，先来后到。"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.4
+        },
+        {
+          "speaker": "同学B",
+          "text": "好，我等你。",
+          "sources": [
+            {
+              "segment": "A06",
+              "line": 3,
+              "text": "好，我等你。"
+            }
+          ],
+          "start": 6.65,
+          "end": 8.41
+        },
+        {
+          "speaker": "老师",
+          "text": "说得很好。小朋友可以把自己的想法说清楚。",
+          "sources": [
+            {
+              "segment": "A07",
+              "line": 1,
+              "text": "说得很好。小朋友可以把自己的想法说清楚。"
+            }
+          ],
+          "start": 8.66,
+          "end": 14.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.927,
+      "estimated_reading_seconds": 13.2,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium shot begins at the puzzle table in Picture 1, with the yellow-shirted boy on the left, the purple-shirted girl leaning close from the right, and the teacher watching behind them.",
+        "beats": [
+          "The boy turns toward the girl and expresses his boundary with a hesitant beginning followed by a clearer second sentence. He keeps his hands near his own puzzle pieces rather than pushing her away.",
+          "The girl withdraws her reaching arm, shifts her chair a short distance to the right and answers while looking at him. She then places her hands in her lap.",
+          "The teacher nods and praises the boy in a gentle voice. His shoulders lower and he gives a small, relieved smile while the girl waits quietly."
+        ],
+        "ending": "The girl finishes moving into the comfortable right-hand seating position shown in Picture 2. The boy remains beside the same puzzle, with the teacher behind them and the table layout unchanged."
+      },
+      "prompt_file": "prompts/RA06.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA08",
+      "source_ids": [
+        "A08"
+      ],
+      "act": "第一幕",
+      "seconds": 7,
+      "original_seconds": 12,
+      "timeline_start": 65,
+      "timeline_end": 72,
+      "first_frame": "../frames/F08.png",
+      "last_frame": "../frames/F09.png",
+      "internal_frames_not_conditioned": [],
+      "action": "积木区，右侧男孩询问，左侧主角点头回答；两人随说话递放积木，开始合作。老师在后方微笑。",
+      "cast": [
+        "主角",
+        "同学A",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "同学A",
+          "text": "我可以和你一起搭吗？",
+          "sources": [
+            {
+              "segment": "A08",
+              "line": 1,
+              "text": "我可以和你一起搭吗？"
+            }
+          ],
+          "start": 0.25,
+          "end": 3.44
+        },
+        {
+          "speaker": "主角",
+          "text": "可以呀，我们一起搭。",
+          "sources": [
+            {
+              "segment": "A08",
+              "line": 2,
+              "text": "可以呀，我们一起搭。"
+            }
+          ],
+          "start": 3.69,
+          "end": 6.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.879,
+      "estimated_reading_seconds": 6.43,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium-wide shot starts from Picture 1 in the block corner: the yellow-shirted boy sits left beside the colorful blocks, the coral-shirted boy sits right with his hands close to his lap, and the teacher watches from behind.",
+        "beats": [
+          "The coral-shirted boy looks toward the yellow-shirted boy and asks politely, keeping his hands away from the other boy's blocks until he receives a response.",
+          "The yellow-shirted boy nods and answers with a welcoming smile. The coral-shirted boy then picks up a blue block and extends it toward him while the yellow-shirted boy positions a yellow block on the tower."
+        ],
+        "ending": "Their hands converge on the cooperative building positions in Picture 2, with the blue block offered from the right and the tower and small house visible between them. The teacher remains behind, smiling."
+      },
+      "prompt_file": "prompts/RA08.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA09",
+      "source_ids": [
+        "A09",
+        "A10"
+      ],
+      "act": "第一幕",
+      "seconds": 13,
+      "original_seconds": 20,
+      "timeline_start": 72,
+      "timeline_end": 85,
+      "first_frame": "../frames/F09.png",
+      "last_frame": "../frames/F09.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一积木区。两个男孩一人递积木、一人摆放，展示塔和小房子；旁白结束后老师看着作品鼓励，两人微笑。",
+      "cast": [
+        "主角",
+        "同学A",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "像积木这样的玩具，常常可以一起玩、一起合作。",
+          "sources": [
+            {
+              "segment": "A09",
+              "line": 1,
+              "text": "像积木这样的玩具，常常可以一起玩、一起合作。"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.39
+        },
+        {
+          "speaker": "老师",
+          "text": "你们一个搭高高的塔，一个搭小房子，真棒！",
+          "sources": [
+            {
+              "segment": "A10",
+              "line": 1,
+              "text": "你们一个搭高高的塔，一个搭小房子，真棒！"
+            }
+          ],
+          "start": 6.64,
+          "end": 12.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.935,
+      "estimated_reading_seconds": 11.15,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static medium-wide shot matches Picture 1 in the block corner: the yellow-shirted boy is seated left at the tower, the coral-shirted boy sits right holding out a blue block, and the teacher smiles behind the two children. The existing tower and little house retain their reference shapes.",
+        "beats": [
+          "The boys exchange attentive looks and make small adjustments to the blocks already in their hands, showing how they coordinate the work. They keep their lips closed during the narration.",
+          "The teacher looks first at the tower and then at the little house as she praises their work. The boys look up toward her, then back at their buildings, smiling without adding any speech."
+        ],
+        "ending": "The boys return their hands to the offered-blue-block and tower-building positions of Picture 2. The completed structures, seated spacing and teacher's position remain consistent."
+      },
+      "prompt_file": "prompts/RA09.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA11",
+      "source_ids": [
+        "A11",
+        "A12"
+      ],
+      "act": "第一幕",
+      "seconds": 13,
+      "original_seconds": 21,
+      "timeline_start": 85,
+      "timeline_end": 98,
+      "first_frame": "../frames/F10.png",
+      "last_frame": "../frames/F11.png",
+      "internal_frames_not_conditioned": [],
+      "action": "彩色活动区，老师在两名孩子走向蹦床时提醒。主角独自踏上蓝色单人蹦床，双手握扶手；女孩在外侧等候。两人对话后，主角低幅轻跳一次并落稳。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "老师",
+          "text": "小蹦床要一个一个玩，先来后到，更安全。",
+          "sources": [
+            {
+              "segment": "A11",
+              "line": 1,
+              "text": "小蹦床要一个一个玩，先来后到，更安全。"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.05
+        },
+        {
+          "speaker": "主角",
+          "text": "那我先玩，一会儿轮到你。",
+          "sources": [
+            {
+              "segment": "A12",
+              "line": 1,
+              "text": "那我先玩，一会儿轮到你。"
+            }
+          ],
+          "start": 6.3,
+          "end": 10.54
+        },
+        {
+          "speaker": "同学B",
+          "text": "好，我等你。",
+          "sources": [
+            {
+              "segment": "A12",
+              "line": 2,
+              "text": "好，我等你。"
+            }
+          ],
+          "start": 10.79,
+          "end": 12.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.915,
+      "estimated_reading_seconds": 10.69,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static wide shot begins as Picture 1 in the activity area: a small blue padded trampoline stands between the yellow-shirted boy on the left and the purple-shirted girl on the right. Both are on the floor, and the teacher stands nearby to supervise.",
+        "beats": [
+          "As the children begin stepping toward the trampoline, the teacher gently raises an open hand and explains the rule. The girl stops on the right while the boy steps carefully onto the trampoline and takes its support bar with both hands.",
+          "Standing alone on the trampoline, the boy turns his head toward the waiting girl and speaks with a relaxed, matter-of-fact delivery. He keeps both hands on the bar.",
+          "The girl nods and responds from her place on the floor. The boy makes one small controlled bounce and settles his feet while she stays safely outside the trampoline."
+        ],
+        "ending": "The boy comes to rest alone on the trampoline with both hands on the bar, the girl waits to the right and the teacher stands to the left, converging to the arrangement of Picture 2."
+      },
+      "prompt_file": "prompts/RA11.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA13",
+      "source_ids": [
+        "A13"
+      ],
+      "act": "第一幕",
+      "seconds": 9,
+      "original_seconds": 14,
+      "timeline_start": 98,
+      "timeline_end": 107,
+      "first_frame": "../frames/F11.png",
+      "last_frame": "../frames/F11.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一彩色活动区。男孩独自在蹦床上低幅轻跳，双手握扶手；女孩在外侧保持距离等候，老师监督。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "像小蹦床这样的活动，两个小朋友一起玩，可能会危险，所以要轮流。",
+          "sources": [
+            {
+              "segment": "A13",
+              "line": 1,
+              "text": "像小蹦床这样的活动，两个小朋友一起玩，可能会危险，所以要轮流。"
+            }
+          ],
+          "start": 0.25,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.933,
+      "estimated_reading_seconds": 7.98,
+      "official_scene": {
+        "opening": "2D-animated in soft pastel colors. A static wide shot matches Picture 1: the yellow-shirted boy stands alone on the blue single-child trampoline holding its support bar, the purple-shirted girl waits on the floor to the right, and the teacher supervises from the left.",
+        "beats": [
+          "The boy makes a few low, controlled bounces without releasing the support bar. The girl remains outside the trampoline at a comfortable distance, and the teacher follows his movement with her eyes. Everyone on screen keeps their lips closed during the narration."
+        ],
+        "ending": "The boy reduces the bouncing until both feet are still, returning to the standing pose in Picture 2. The teacher and waiting girl keep their original positions."
+      },
+      "prompt_file": "prompts/RA13.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA14",
+      "source_ids": [
+        "A14"
+      ],
+      "act": "第一幕",
+      "seconds": 9,
+      "original_seconds": 14,
+      "timeline_start": 107,
+      "timeline_end": 116,
+      "first_frame": "../frames/F12.png",
+      "last_frame": "../frames/F13.png",
+      "internal_frames_not_conditioned": [],
+      "action": "全程黑白灰、云状边缘的假想画面。两名孩子同床轻跳，轻轻碰头，随后坐在旁边软垫上，各摸额头并露出委屈表情。无血、无伤痕、无夸张跌落；动作无声，只有旁白。",
+      "cast": [
+        "主角",
+        "同学B"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "如果两个小朋友一起跳小蹦床，可能会撞到头，大家都会难受。",
+          "sources": [
+            {
+              "segment": "A14",
+              "line": 1,
+              "text": "如果两个小朋友一起跳小蹦床，可能会撞到头，大家都会难受。"
+            }
+          ],
+          "start": 0.25,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.933,
+      "estimated_reading_seconds": 7.3,
+      "official_scene": {
+        "opening": "2D-animated entirely in black, white and gray, with the soft cloud-shaped vignette border of Picture 1. A static wide shot frames the two children standing together on the small trampoline in a simplified activity area. No teacher is present.",
+        "beats": [
+          "The children make a small bounce together, drift toward each other and lightly bump their foreheads. They stop, carefully step down onto the adjacent soft mat and sit. Each places a hand against their own forehead, with a small tear and a disappointed expression. The bump and tearful reactions remain silent beneath the narration, without a fall, bruising or injury marks."
+        ],
+        "ending": "Their seated bodies settle beside the trampoline into the positions of Picture 2, each touching their own forehead. The entire scene and its cloud-shaped border remain grayscale through the final frame."
+      },
+      "prompt_file": "prompts/RA14.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RA15",
+      "source_ids": [
+        "A15"
+      ],
+      "act": "第一幕",
+      "seconds": 6,
+      "original_seconds": 10,
+      "timeline_start": 116,
+      "timeline_end": 122,
+      "first_frame": "../frames/F14.png",
+      "last_frame": "../frames/F14.png",
+      "internal_frames_not_conditioned": [],
+      "action": "全程恢复柔和彩色。女孩独自在蓝色单人蹦床上低幅轻跳、握住扶手，男孩在外侧等候，老师监督。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "所以，小蹦床要一个人先玩，一个人后玩。",
+          "sources": [
+            {
+              "segment": "A15",
+              "line": 1,
+              "text": "所以，小蹦床要一个人先玩，一个人后玩。"
+            }
+          ],
+          "start": 0.25,
+          "end": 5.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.9,
+      "estimated_reading_seconds": 4.8,
+      "official_scene": {
+        "opening": "2D-animated in the full soft colors of Picture 1. A static wide shot frames the purple-shirted girl alone on the blue trampoline, holding its support bar. The yellow-shirted boy waits on the floor to the left, with the teacher supervising beside him.",
+        "beats": [
+          "The girl makes a small controlled bounce while keeping both hands on the bar. The boy watches from the floor without approaching, and the teacher follows the girl with her eyes. All visible mouths remain closed during the narration."
+        ],
+        "ending": "The girl settles her feet on the trampoline, and everyone returns to the calm standing poses and spacing of Picture 2. The scene remains fully colored."
+      },
+      "prompt_file": "prompts/RA15.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB01",
+      "source_ids": [
+        "B01"
+      ],
+      "act": "第二幕",
+      "seconds": 7,
+      "original_seconds": 12,
+      "timeline_start": 122,
+      "timeline_end": 129,
+      "first_frame": "../frames/F15.png",
+      "last_frame": "../frames/F16.png",
+      "internal_frames_not_conditioned": [],
+      "action": "教室涂色桌，老师略着急、严肃地说话，不吼叫；男孩低头握住红蜡笔，神情难过。",
+      "cast": [
+        "主角",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "老师",
+          "text": "你怎么还没画好？快一点！不要动来动去，坐好！",
+          "sources": [
+            {
+              "segment": "B01",
+              "line": 1,
+              "text": "你怎么还没画好？快一点！不要动来动去，坐好！"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.914,
+      "estimated_reading_seconds": 5.93,
+      "official_scene": {
+        "opening": "2D-animated, with the soft pastel colors and clean outlines of Picture 1. A static medium shot frames the small boy in a yellow shirt at the left of a pale wooden coloring table and the teacher in a mint-green cardigan standing to his right. A flower drawing and red crayon rest beneath the boy's hands; classroom shelves and windows remain in the background.",
+        "beats": [
+          "The teacher leans slightly toward the table and addresses the boy with a serious, impatient delivery at ordinary speaking volume. The boy stops coloring, lowers his gaze, and curls his fingers around the red crayon; the teacher keeps her hands relaxed rather than pointing at him."
+        ],
+        "ending": "The boy's shoulders settle lower and his eyes remain on the drawing. The teacher's expression softens as she watches him. Their positions, the red crayon, and the flower paper settle into the arrangement in Picture 2 without moving the camera."
+      },
+      "prompt_file": "prompts/RB01.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB02",
+      "source_ids": [
+        "B02",
+        "B03"
+      ],
+      "act": "第二幕",
+      "seconds": 11,
+      "original_seconds": 18,
+      "timeline_start": 129,
+      "timeline_end": 140,
+      "first_frame": "../frames/F16.png",
+      "last_frame": "../frames/F16.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一涂色桌，男孩低头握着红蜡笔，轻轻呼气；老师在旁神情缓和。完整旁白连续说完，画中人物保持安静。",
+      "cast": [
+        "主角",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "有时候，老师说话太严厉，或者提出让小朋友不舒服的要求，小朋友会难过、害怕。",
+          "sources": [
+            {
+              "segment": "B02",
+              "line": 1,
+              "text": "有时候，老师说话太严厉，或者提出让小朋友不舒服的要求，"
+            },
+            {
+              "segment": "B03",
+              "line": 1,
+              "text": "小朋友会难过、害怕。"
+            }
+          ],
+          "start": 0.25,
+          "end": 10.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.945,
+      "estimated_reading_seconds": 9.49,
+      "official_scene": {
+        "opening": "2D-animated, preserving the pastel classroom and static medium framing in Picture 1. The yellow-shirted boy sits on the left, looking down at his flower drawing with the red crayon in hand. The teacher in a mint-green cardigan stands on the right and looks toward him.",
+        "beats": [
+          "During the narration, the boy blinks, lets his shoulders relax a little, and continues looking at the page. The teacher remains beside him with a softened, attentive expression. These small movements leave the drawing and crayon in place."
+        ],
+        "ending": "The boy returns to the lowered gaze and hand position shown in Picture 2, while the teacher settles into the same concerned posture beside him. The fixed camera, furniture, and classroom lighting do not change."
+      },
+      "prompt_file": "prompts/RB02.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB04",
+      "source_ids": [
+        "B04",
+        "B05"
+      ],
+      "act": "第二幕",
+      "seconds": 12,
+      "original_seconds": 22,
+      "timeline_start": 140,
+      "timeline_end": 152,
+      "first_frame": "../frames/F17.png",
+      "last_frame": "../frames/F18.png",
+      "internal_frames_not_conditioned": [],
+      "action": "晚上家中客厅，妈妈蹲下与孩子平视并询问；男孩抬头，努力说出担心，妈妈耐心倾听。只保留台词中写明的结巴与短停顿。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "宝宝，今天在幼儿园怎么样呀？",
+          "sources": [
+            {
+              "segment": "B04",
+              "line": 1,
+              "text": "宝宝，今天在幼儿园怎么样呀？"
+            }
+          ],
+          "start": 0.25,
+          "end": 4.39
+        },
+        {
+          "speaker": "主角",
+          "text": "老、老师……说我……要快一点……我、我有点怕。",
+          "sources": [
+            {
+              "segment": "B05",
+              "line": 1,
+              "text": "老、老师……说我……要快一点……我、我有点怕。"
+            }
+          ],
+          "start": 4.64,
+          "end": 11.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.929,
+      "estimated_reading_seconds": 10.44,
+      "official_scene": {
+        "opening": "2D-animated, with warm evening colors and the static medium two-shot in Picture 1. The small boy in a yellow shirt and teal trousers stands on the left of the living room, eyes lowered and hands gathered near his body. His mother, wearing a peach top and cream trousers, kneels at his eye level on the right beside the cream sofa; the lamp and wooden table stay behind them.",
+        "beats": [
+          "The mother tilts her face toward the boy and asks gently, keeping her posture low and her hands relaxed. The boy gradually lifts his eyes to meet hers while she finishes.",
+          "The boy brings one hand toward his chest and explains his worry in a hesitant child's voice, keeping the written stutter and brief pauses. His mother listens with her lips closed, maintaining eye contact without interrupting or completing the sentence for him."
+        ],
+        "ending": "The boy remains upright with his hand close to his chest and his gaze lifted toward his mother. She holds her attentive kneeling posture, arriving at the spacing, faces, and hand positions in Picture 2."
+      },
+      "prompt_file": "prompts/RB04.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB06",
+      "source_ids": [
+        "B06",
+        "B07"
+      ],
+      "act": "第二幕",
+      "seconds": 15,
+      "original_seconds": 22,
+      "timeline_start": 152,
+      "timeline_end": 167,
+      "first_frame": "../frames/F18.png",
+      "last_frame": "../frames/F19.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一客厅。妈妈确认孩子的感受，孩子点头回答；妈妈轻轻握住他的手，两人逐渐放松。随后旁白说明，画中人物安静相视。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "你觉得老师太严厉了，是吗？",
+          "sources": [
+            {
+              "segment": "B06",
+              "line": 1,
+              "text": "你觉得老师太严厉了，是吗？"
+            }
+          ],
+          "start": 0.25,
+          "end": 4.1
+        },
+        {
+          "speaker": "主角",
+          "text": "嗯，我不舒服。",
+          "sources": [
+            {
+              "segment": "B06",
+              "line": 2,
+              "text": "嗯，我不舒服。"
+            }
+          ],
+          "start": 4.35,
+          "end": 6.53
+        },
+        {
+          "speaker": "旁白",
+          "text": "如果在学校遇到了不合理、让自己不舒服的事情，要告诉家长。",
+          "sources": [
+            {
+              "segment": "B07",
+              "line": 1,
+              "text": "如果在学校遇到了不合理、让自己不舒服的事情，要告诉家长。"
+            }
+          ],
+          "start": 6.78,
+          "end": 14.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.927,
+      "estimated_reading_seconds": 12.9,
+      "official_scene": {
+        "opening": "2D-animated, preserving the warm living room and static medium two-shot of Picture 1. The yellow-shirted boy stands on the left with one hand near his chest, facing his mother in a peach top and cream trousers. She kneels on the right at his eye level, with the cream sofa, wooden table, and evening lamp behind them.",
+        "beats": [
+          "The mother looks directly at the boy and gently asks her question, keeping her face close to his eye level. The boy watches her without speaking over her.",
+          "The boy gives a small nod and answers in a subdued but clear child's voice. His mother listens with her lips closed and begins to extend her hands toward his.",
+          "During the narration, the mother gently takes the boy's hands. His shoulders loosen and his worried expression eases into a small smile as they look at one another."
+        ],
+        "ending": "Their hands remain lightly joined, the boy stands more comfortably, and the mother stays kneeling. They settle into the handhold, gaze, and composition shown in Picture 2; the camera remains still."
+      },
+      "prompt_file": "prompts/RB06.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB08",
+      "source_ids": [
+        "B08"
+      ],
+      "act": "第二幕",
+      "seconds": 10,
+      "original_seconds": 14,
+      "timeline_start": 167,
+      "timeline_end": 177,
+      "first_frame": "../frames/F20.png",
+      "last_frame": "../frames/F20.png",
+      "internal_frames_not_conditioned": [],
+      "action": "第二天幼儿园角落，妈妈与老师平视、平静交流。妈妈说明情况，老师专心听；男孩站在旁边。",
+      "cast": [
+        "主角",
+        "妈妈",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "老师您好，孩子昨天回家说，您提醒他的时候语气有点重，他有点害怕。",
+          "sources": [
+            {
+              "segment": "B08",
+              "line": 1,
+              "text": "老师您好，孩子昨天回家说，您提醒他的时候语气有点重，他有点害怕。"
+            }
+          ],
+          "start": 0.25,
+          "end": 9.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.94,
+      "estimated_reading_seconds": 8.96,
+      "official_scene": {
+        "opening": "2D-animated, with the pastel kindergarten corner and static medium-wide framing of Picture 1. The mother in a peach top and cream trousers stands left of center facing the teacher in a mint-green cardigan on the right. The yellow-shirted boy waits farther left beside the toy shelf. The two adults stand at a comfortable conversational distance.",
+        "beats": [
+          "The mother calmly explains the situation, turning one relaxed open hand slightly toward the teacher. The teacher listens with her lips closed and her gaze on the mother's face. The boy remains beside the shelf and looks toward the adults."
+        ],
+        "ending": "The mother's small hand gesture returns to its starting position as the teacher maintains her attentive stance. All three settle into the same arrangement in Picture 2, with no change of viewpoint or location."
+      },
+      "prompt_file": "prompts/RB08.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB09",
+      "source_ids": [
+        "B09"
+      ],
+      "act": "第二幕",
+      "seconds": 11,
+      "original_seconds": 13,
+      "timeline_start": 177,
+      "timeline_end": 188,
+      "first_frame": "../frames/F20.png",
+      "last_frame": "../frames/F21.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一幼儿园角落，妈妈继续提出请求，老师理解地点头回复，男孩神情安心。",
+      "cast": [
+        "主角",
+        "妈妈",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "能不能多一点耐心，慢慢引导他？",
+          "sources": [
+            {
+              "segment": "B09",
+              "line": 1,
+              "text": "能不能多一点耐心，慢慢引导他？"
+            }
+          ],
+          "start": 0.25,
+          "end": 4.63
+        },
+        {
+          "speaker": "老师",
+          "text": "好的，谢谢您告诉我。我以后会更温和一点。",
+          "sources": [
+            {
+              "segment": "B09",
+              "line": 2,
+              "text": "好的，谢谢您告诉我。我以后会更温和一点。"
+            }
+          ],
+          "start": 4.88,
+          "end": 10.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.923,
+      "estimated_reading_seconds": 9.69,
+      "official_scene": {
+        "opening": "2D-animated, retaining the pastel kindergarten corner and static medium-wide shot of Picture 1. The mother in peach stands left of center, facing the mint-cardigan teacher on the right. The yellow-shirted boy stands beside the shelf at the far left and watches them.",
+        "beats": [
+          "The mother makes a small open-handed gesture and delivers her request in a calm, courteous voice. The teacher listens without interrupting, keeping her shoulders relaxed.",
+          "The teacher nods once and replies with a gentle, measured delivery, gradually bringing one hand toward her upper chest. The mother lowers her gesturing hand and smiles slightly; the boy's expression becomes reassured."
+        ],
+        "ending": "The teacher's hand and nod settle into the understanding posture in Picture 2. The mother faces her with relaxed hands, and the boy remains in place beside the shelf. Preserve their spacing and the fixed classroom composition."
+      },
+      "prompt_file": "prompts/RB09.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RB10",
+      "source_ids": [
+        "B10"
+      ],
+      "act": "第二幕",
+      "seconds": 8,
+      "original_seconds": 12,
+      "timeline_start": 188,
+      "timeline_end": 196,
+      "first_frame": "../frames/F21.png",
+      "last_frame": "../frames/F21.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一幼儿园角落。两位大人友善点头，男孩安心微笑；只听到旁白。",
+      "cast": [
+        "主角",
+        "妈妈",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "家长会帮助孩子和老师沟通，一起想办法，让小朋友更安心。",
+          "sources": [
+            {
+              "segment": "B10",
+              "line": 1,
+              "text": "家长会帮助孩子和老师沟通，一起想办法，让小朋友更安心。"
+            }
+          ],
+          "start": 0.25,
+          "end": 7.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.925,
+      "estimated_reading_seconds": 7.03,
+      "official_scene": {
+        "opening": "2D-animated, preserving the pastel kindergarten corner and static medium-wide composition in Picture 1. The mother in peach stands left of center, the teacher in a mint-green cardigan stands on the right with a hand near her chest, and the yellow-shirted boy watches from beside the shelf at the far left.",
+        "beats": [
+          "During the narration, the adults exchange a small friendly nod. The boy lifts his gaze toward them and gives a slight relieved smile; their feet and surrounding furniture remain in place."
+        ],
+        "ending": "The nods subside and the three characters return to the relaxed poses and eye lines in Picture 2. The teacher's hand settles near her chest and the mother remains facing her, with the boy still beside the shelf."
+      },
+      "prompt_file": "prompts/RB10.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC01",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "act": "第三幕",
+      "seconds": 11,
+      "original_seconds": 19,
+      "timeline_start": 196,
+      "timeline_end": 207,
+      "first_frame": "../frames/F22.png",
+      "last_frame": "../frames/F23.png",
+      "internal_frames_not_conditioned": [],
+      "action": "钓鱼玩具桌前，男孩用安全磁吸杆钓起参考图中的玩具鱼，开心展示；旁白连贯介绍，随后老师夸奖。玩具鱼颜色、造型以参考图为准。",
+      "cast": [
+        "主角",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "在幼儿园里，也会有很多开心的事情。比如钓鱼玩具很好玩，",
+          "sources": [
+            {
+              "segment": "C01",
+              "line": 1,
+              "text": "在幼儿园里，也会有很多开心的事情。"
+            },
+            {
+              "segment": "C02",
+              "line": 1,
+              "text": "比如钓鱼玩具很好玩，"
+            }
+          ],
+          "start": 0.25,
+          "end": 7.85
+        },
+        {
+          "speaker": "老师",
+          "text": "哇，你钓到小鱼啦！",
+          "sources": [
+            {
+              "segment": "C02",
+              "line": 2,
+              "text": "哇，你钓到小鱼啦！"
+            }
+          ],
+          "start": 8.1,
+          "end": 10.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.923,
+      "estimated_reading_seconds": 9.39,
+      "official_scene": {
+        "opening": "2D-animated, with rounded preschool characters, clean outlines and soft warm colors. A static medium shot begins in the composition of Picture 1: the short-haired boy in a yellow shirt and teal trousers sits at the left of a low toy-fishing table, with the mint-cardigan teacher beside him on the right. A shallow blue tray holds colorful magnetic toy fish; the boy holds a short toy rod above it.",
+        "beats": [
+          "While the narration plays, the boy lowers the magnetic tip toward the orange toy fish, lets it attach, then steadily lifts the fish clear of the tray. The teacher follows the rising fish with her eyes; both keep their lips closed.",
+          "The teacher looks from the lifted fish to the boy and speaks with a gentle smile. The boy listens without speaking and holds the rod steady, keeping the orange fish suspended beside the teacher."
+        ],
+        "ending": "The boy finishes raising the rod into the angle shown in Picture 2 and holds the orange fish above the tray. The teacher settles into the same seated position and smile as the final reference; the camera, table and tray remain fixed."
+      },
+      "prompt_file": "prompts/RC01.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC03",
+      "source_ids": [
+        "C03"
+      ],
+      "act": "第三幕",
+      "seconds": 6,
+      "original_seconds": 10,
+      "timeline_start": 207,
+      "timeline_end": 213,
+      "first_frame": "../frames/F24.png",
+      "last_frame": "../frames/F25.png",
+      "internal_frames_not_conditioned": [],
+      "action": "音乐活动区，三个孩子轻轻摆手踏步，老师在后方。先旁白介绍，再老师鼓励；舞蹈无声，配乐留待后期。",
+      "cast": [
+        "主角",
+        "同学A",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "跟着音乐跳舞很开心，",
+          "sources": [
+            {
+              "segment": "C03",
+              "line": 1,
+              "text": "跟着音乐跳舞很开心，"
+            }
+          ],
+          "start": 0.25,
+          "end": 3.42
+        },
+        {
+          "speaker": "老师",
+          "text": "跳得真开心！",
+          "sources": [
+            {
+              "segment": "C03",
+              "line": 2,
+              "text": "跳得真开心！"
+            }
+          ],
+          "start": 3.67,
+          "end": 5.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.858,
+      "estimated_reading_seconds": 4.26,
+      "official_scene": {
+        "opening": "2D-animated in the warm pastel style of Picture 1. A static wide shot frames a clear classroom activity floor: the coral-shirt boy stands on the left, the yellow-shirt boy in the middle, and the purple-shirt girl with two braids on the right. The mint-cardigan teacher stands behind them near the small music player, with the shelves and windows kept in their reference positions.",
+        "beats": [
+          "During the narration, the children make small alternating steps and gently swing their forearms, keeping comfortable space between them. Their lips remain closed; the dance and the visible music player produce no audible music or movement sounds.",
+          "The teacher smiles and speaks her encouragement while the children continue the small dance gestures without speaking. Their arms gradually rise toward the positions in the final reference."
+        ],
+        "ending": "The children settle into the arm positions and foot placements of Picture 2 while the teacher remains behind them. The shot stays static, retaining the same spacing, floor and background."
+      },
+      "prompt_file": "prompts/RC03.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC04",
+      "source_ids": [
+        "C04"
+      ],
+      "act": "第三幕",
+      "seconds": 7,
+      "original_seconds": 11,
+      "timeline_start": 213,
+      "timeline_end": 220,
+      "first_frame": "../frames/F11.png",
+      "last_frame": "../frames/F11.png",
+      "internal_frames_not_conditioned": [],
+      "action": "彩色活动区，男孩独自在蹦床上握住扶手、低幅轻跳，女孩等候，老师监督；旁白后男孩说话，双脚落稳。",
+      "cast": [
+        "主角",
+        "同学B",
+        "老师"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "轮到自己玩蹦床的时候也很快乐。",
+          "sources": [
+            {
+              "segment": "C04",
+              "line": 1,
+              "text": "轮到自己玩蹦床的时候也很快乐。"
+            }
+          ],
+          "start": 0.25,
+          "end": 4.42
+        },
+        {
+          "speaker": "主角",
+          "text": "我好开心呀！",
+          "sources": [
+            {
+              "segment": "C04",
+              "line": 2,
+              "text": "我好开心呀！"
+            }
+          ],
+          "start": 4.67,
+          "end": 6.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.879,
+      "estimated_reading_seconds": 5.91,
+      "official_scene": {
+        "opening": "2D-animated, with the same soft colors and rounded figures as Picture 1. A static wide shot frames the blue padded single-child trampoline: the yellow-shirt boy stands alone on its bed, the purple-shirt girl waits on the floor to the right, and the mint-cardigan teacher supervises from the left. Keep the reference handrail, mat and classroom layout unchanged.",
+        "beats": [
+          "During the narration, the boy holds the handrail with both hands and makes two very low, controlled bounces. The girl waits outside the trampoline and the teacher watches; all visible mouths remain closed.",
+          "With both feet resting on the trampoline bed, the boy looks up and speaks happily while retaining his grip on the handrail. The girl and teacher listen silently."
+        ],
+        "ending": "The boy's body stops bobbing and returns to the upright stance in Picture 2, which shares the opening composition. The girl stays on the floor and the teacher remains beside the trampoline; no one changes places."
+      },
+      "prompt_file": "prompts/RC04.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC05",
+      "source_ids": [
+        "C05",
+        "C06"
+      ],
+      "act": "第三幕",
+      "seconds": 12,
+      "original_seconds": 22,
+      "timeline_start": 220,
+      "timeline_end": 232,
+      "first_frame": "../frames/F26.png",
+      "last_frame": "../frames/F27.png",
+      "internal_frames_not_conditioned": [],
+      "action": "晚上家中客厅，开心的男孩走近妈妈并站稳。妈妈微笑询问，男孩随即用钓鱼手势讲述；妈妈耐心听，只保留台词中写明的结巴与短停顿。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "今天是不是有开心的事呀？慢慢说，妈妈听。",
+          "sources": [
+            {
+              "segment": "C05",
+              "line": 1,
+              "text": "今天是不是有开心的事呀？慢慢说，妈妈听。"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.54
+        },
+        {
+          "speaker": "主角",
+          "text": "我、我今天……钓……钓到鱼鱼！",
+          "sources": [
+            {
+              "segment": "C06",
+              "line": 1,
+              "text": "我、我今天……钓……钓到鱼鱼！"
+            }
+          ],
+          "start": 6.79,
+          "end": 11.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.929,
+      "estimated_reading_seconds": 9.77,
+      "official_scene": {
+        "opening": "2D-animated, with warm evening light and the same rounded characters as Picture 1. A static medium-wide two-shot frames the yellow-shirt boy approaching from the left and his mother, in a peach top and cream trousers, kneeling on the right. The cream sofa, low table, lamp and evening window remain in their reference positions.",
+        "beats": [
+          "The mother faces the boy at his eye level and gently invites him to speak. As she talks, the boy completes his approach, plants both feet and brings his hands nearer his chest, looking at her without interrupting.",
+          "The boy begins his account with the brief hesitation and pauses already written in his dialogue, making a small pretend-fishing gesture with one hand. His mother stays still and listens with a closed mouth, without finishing the words for him."
+        ],
+        "ending": "The boy settles on the left in the speaking posture of Picture 2, with his mother still kneeling to the right and watching attentively. His hand movement diminishes into the final reference gesture without changing the camera or room layout."
+      },
+      "prompt_file": "prompts/RC05.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC07",
+      "source_ids": [
+        "C07",
+        "C08"
+      ],
+      "act": "第三幕",
+      "seconds": 13,
+      "original_seconds": 22,
+      "timeline_start": 232,
+      "timeline_end": 245,
+      "first_frame": "../frames/F27.png",
+      "last_frame": "../frames/F28.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一客厅。男孩轻屈膝比划蹦床，再做小幅跳舞手势，开心说话；妈妈耐心倾听。旁白接着说明，男孩放松双手。只保留台词中写明的短停顿。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "主角",
+          "text": "还、还跳……跳……蹦蹦！还有……音乐，跳舞！",
+          "sources": [
+            {
+              "segment": "C07",
+              "line": 1,
+              "text": "还、还跳……跳……蹦蹦！还有……音乐，跳舞！"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.56
+        },
+        {
+          "speaker": "旁白",
+          "text": "就算还不会说得很清楚，也可以努力告诉家长。",
+          "sources": [
+            {
+              "segment": "C08",
+              "line": 1,
+              "text": "就算还不会说得很清楚，也可以努力告诉家长。"
+            }
+          ],
+          "start": 6.81,
+          "end": 12.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.935,
+      "estimated_reading_seconds": 11.48,
+      "official_scene": {
+        "opening": "2D-animated in the soft, warm style of Picture 1. A static medium two-shot begins with the yellow-shirt boy standing on the left, one hand lifted near his chest, and his peach-shirt mother kneeling on the right beside the cream sofa. Keep their faces, clothing, spacing and evening lighting consistent with the reference.",
+        "beats": [
+          "The boy speaks excitedly, retaining only the hesitations and pauses written in his dialogue. He lightly bends his knees to mime a bounce, then opens his hands into a small dancing gesture. His mother watches patiently with her lips closed.",
+          "As the narration begins, the boy closes his mouth and lets the small gesture settle. His mother makes a slight acknowledging nod, keeping her lips closed and her attention on him."
+        ],
+        "ending": "The boy's hands and shoulders gradually settle into the pose in Picture 2. His mother returns from the small nod to the final listening posture, preserving the same two-shot and furniture positions."
+      },
+      "prompt_file": "prompts/RC07.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC09",
+      "source_ids": [
+        "C09"
+      ],
+      "act": "第三幕",
+      "seconds": 9,
+      "original_seconds": 14,
+      "timeline_start": 245,
+      "timeline_end": 254,
+      "first_frame": "../frames/F28.png",
+      "last_frame": "../frames/F29.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一客厅，妈妈开心回应，一边说话一边轻轻侧抱孩子。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "哇，原来你今天玩了钓鱼玩具，还跟着音乐跳舞了，真开心呀！",
+          "sources": [
+            {
+              "segment": "C09",
+              "line": 1,
+              "text": "哇，原来你今天玩了钓鱼玩具，还跟着音乐跳舞了，真开心呀！"
+            }
+          ],
+          "start": 0.25,
+          "end": 8.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.933,
+      "estimated_reading_seconds": 7.75,
+      "official_scene": {
+        "opening": "2D-animated, warm evening light, a static medium two-shot matching Picture 1. The yellow-shirt boy stands on the left facing his peach-shirt mother, who kneels on the right beside the cream sofa; his hands are still slightly lifted from a small gesture.",
+        "beats": [
+          "The mother responds with a broad, warm smile while slowly opening her arms. As she continues speaking, the boy lowers his hands and leans toward her; she gently draws him into a side hug. The boy remains silent."
+        ],
+        "ending": "The mother finishes drawing the boy against her shoulder and settles both arms into the embrace shown in Picture 2. Their faces relax into the reference smiles, with the same kneeling height, sofa and static framing."
+      },
+      "prompt_file": "prompts/RC09.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC10",
+      "source_ids": [
+        "C10"
+      ],
+      "act": "第三幕",
+      "seconds": 8,
+      "original_seconds": 14,
+      "timeline_start": 254,
+      "timeline_end": 262,
+      "first_frame": "../frames/F29.png",
+      "last_frame": "../frames/F30.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一客厅，妈妈轻轻松开拥抱，平视孩子，温柔示范完整句子；孩子专心听。引号内句子仍由妈妈说，孩子此段不跟读。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "妈妈",
+          "text": "你可以这样说：‘我今天在幼儿园玩钓鱼玩具，很开心。’",
+          "sources": [
+            {
+              "segment": "C10",
+              "line": 1,
+              "text": "你可以这样说：‘我今天在幼儿园玩钓鱼玩具，很开心。’"
+            }
+          ],
+          "start": 0.25,
+          "end": 7.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.925,
+      "estimated_reading_seconds": 6.72,
+      "official_scene": {
+        "opening": "2D-animated in the soft evening palette of Picture 1. A static medium shot begins with the peach-shirt mother kneeling on the right and holding the yellow-shirt boy in the close side hug shown in the reference, beside the cream sofa.",
+        "beats": [
+          "The mother gently loosens the hug so the boy can stand upright to her left. Facing him at eye level, she uses a small open-hand gesture while calmly speaking the entire example sentence herself, including the quoted portion. The boy looks at her with his mouth closed and does not repeat it."
+        ],
+        "ending": "The mother settles into the open-handed teaching gesture of Picture 2 and the boy rests his arms in the final listening pose. Their embrace has fully released, while their positions, the room and the camera remain unchanged."
+      },
+      "prompt_file": "prompts/RC10.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC11",
+      "source_ids": [
+        "C11",
+        "C12"
+      ],
+      "act": "第三幕",
+      "seconds": 12,
+      "original_seconds": 21,
+      "timeline_start": 262,
+      "timeline_end": 274,
+      "first_frame": "../frames/F30.png",
+      "last_frame": "../frames/F32.png",
+      "internal_frames_not_conditioned": [
+        "F31"
+      ],
+      "action": "同一客厅，男孩努力完整复述，保留台词中的短停顿；妈妈认真听，等他说完后鼓励，并无声轻拍双手两下，孩子自信微笑。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "主角",
+          "text": "我今天……在幼儿园……玩钓鱼玩具……很开心。",
+          "sources": [
+            {
+              "segment": "C11",
+              "line": 1,
+              "text": "我今天……在幼儿园……玩钓鱼玩具……很开心。"
+            }
+          ],
+          "start": 0.25,
+          "end": 7.51
+        },
+        {
+          "speaker": "妈妈",
+          "text": "说得真棒！谢谢你告诉妈妈。",
+          "sources": [
+            {
+              "segment": "C12",
+              "line": 1,
+              "text": "说得真棒！谢谢你告诉妈妈。"
+            }
+          ],
+          "start": 7.76,
+          "end": 11.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.929,
+      "estimated_reading_seconds": 10.25,
+      "official_scene": {
+        "opening": "2D-animated, warm soft colors, a static medium two-shot anchored in Picture 1. The yellow-shirt boy stands at the left of the cream sofa, looking at his peach-shirt mother kneeling to the right; her hand is still open toward him after a small explanatory gesture.",
+        "beats": [
+          "The boy slowly gives his complete account, retaining the brief pauses already present in the dialogue. He lifts one hand slightly toward his chest and gradually straightens with a small proud smile. His mother lowers her explanatory hand and listens with her mouth closed until he finishes.",
+          "The mother then gives her spoken encouragement and lightly brings her palms together twice in silent applause. The boy listens, smiling toward her, without adding any reply."
+        ],
+        "ending": "The mother's second gentle clap settles into the palm position shown in Picture 2. The boy finishes in the reference stance with his hand near his chest and his face turned toward her; their eye contact and the static framing remain steady."
+      },
+      "prompt_file": "prompts/RC11.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RC13",
+      "source_ids": [
+        "C13"
+      ],
+      "act": "第三幕",
+      "seconds": 7,
+      "original_seconds": 12,
+      "timeline_start": 274,
+      "timeline_end": 281,
+      "first_frame": "../frames/F32.png",
+      "last_frame": "../frames/F32.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一客厅，妈妈缓缓放下双手，与孩子温暖相视；只听到旁白。",
+      "cast": [
+        "主角",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "家长会认真听，也会帮助小朋友学会更清楚地表达。",
+          "sources": [
+            {
+              "segment": "C13",
+              "line": 1,
+              "text": "家长会认真听，也会帮助小朋友学会更清楚地表达。"
+            }
+          ],
+          "start": 0.25,
+          "end": 6.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.914,
+      "estimated_reading_seconds": 6.07,
+      "official_scene": {
+        "opening": "2D-animated, with the warm evening light and composition of Picture 1. A static medium two-shot frames the yellow-shirt boy standing on the left and his peach-shirt mother kneeling on the right, her palms held near one another after applause. The cream sofa and lamp remain behind them.",
+        "beats": [
+          "During the narration, the mother relaxes her hands a little and gives a small nod toward the boy. He answers with a quiet smile and a slight lift of his chin, keeping one hand near his chest; both keep their mouths closed."
+        ],
+        "ending": "The mother returns her hands to the relaxed position near one another shown in Picture 2, and both settle from the small nods into the original facing poses. The final reference repeats the opening framing, without another clap or a change of scene."
+      },
+      "prompt_file": "prompts/RC13.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RE01",
+      "source_ids": [
+        "E01",
+        "E02"
+      ],
+      "act": "片尾",
+      "seconds": 14,
+      "original_seconds": 25,
+      "timeline_start": 281,
+      "timeline_end": 295,
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F33.png",
+      "internal_frames_not_conditioned": [],
+      "action": "片尾合影背景，全体保持参考图位置，微笑、轻轻点头。只有旁白连贯总结。",
+      "cast": [
+        "主角",
+        "同学A",
+        "同学B",
+        "老师",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "在幼儿园里，不抢别人的玩具；别人抢自己的东西时，要勇敢说‘不’。能一起玩的，可以一起玩；有危险的，要轮流玩。",
+          "sources": [
+            {
+              "segment": "E01",
+              "line": 1,
+              "text": "在幼儿园里，不抢别人的玩具；别人抢自己的东西时，要勇敢说‘不’。"
+            },
+            {
+              "segment": "E02",
+              "line": 1,
+              "text": "能一起玩的，可以一起玩；有危险的，要轮流玩。"
+            }
+          ],
+          "start": 0.25,
+          "end": 13.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.957,
+      "estimated_reading_seconds": 13.18,
+      "official_scene": {
+        "opening": "2D-animated, with the warm pastel group-portrait composition of Picture 1. A static wide shot shows the coral-shirt boy at the front left, the purple-shirt girl in the front middle and the yellow-shirt boy at the front right. The mint-cardigan teacher and peach-shirt mother stand behind them. Preserve the combined kindergarten-and-living-room background and the small decorative graphics already present in the reference, without adding text or new graphics.",
+        "beats": [
+          "Throughout the narration, the five characters hold the group arrangement, blinking naturally and making only slight nods and small changes of expression. All visible mouths remain closed; no character steps forward or starts another action."
+        ],
+        "ending": "The slight nods settle back into the smiles, head angles and spacing of Picture 2, which repeats the opening group portrait. The decorative background and camera remain completely stationary."
+      },
+      "prompt_file": "prompts/RE01.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RE03",
+      "source_ids": [
+        "E03"
+      ],
+      "act": "片尾",
+      "seconds": 8,
+      "original_seconds": 12,
+      "timeline_start": 295,
+      "timeline_end": 303,
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F33.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一合影背景，男孩看向妈妈，再看镜头，其余人物自然微笑；只有旁白。",
+      "cast": [
+        "主角",
+        "同学A",
+        "同学B",
+        "老师",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "遇到不合理的事情，要告诉家长。遇到开心的事情，也要告诉家长。",
+          "sources": [
+            {
+              "segment": "E03",
+              "line": 1,
+              "text": "遇到不合理的事情，要告诉家长。"
+            },
+            {
+              "segment": "E03",
+              "line": 2,
+              "text": "遇到开心的事情，也要告诉家长。"
+            }
+          ],
+          "start": 0.25,
+          "end": 7.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.925,
+      "estimated_reading_seconds": 7.7,
+      "official_scene": {
+        "opening": "2D-animated in the warm pastel style of Picture 1. A static wide group portrait keeps the coral-shirt boy at the front left, purple-shirt girl in the front middle, yellow-shirt boy at the front right, and the mint-cardigan teacher and peach-shirt mother behind them. Keep the existing background objects and decorative graphics in their original locations.",
+        "beats": [
+          "As the narration plays, the yellow-shirt boy briefly turns his eyes and head toward his mother behind him. She responds with a small smile; he then turns gently back toward the camera. The other three characters hold their places, and all visible mouths remain closed."
+        ],
+        "ending": "The boy completes the return of his gaze toward the camera, matching his head angle in Picture 2. The whole group settles into the same reference poses and spacing, without moving the camera or changing the background."
+      },
+      "prompt_file": "prompts/RE03.txt",
+      "input_mode": "FL2VA"
+    },
+    {
+      "id": "RE04",
+      "source_ids": [
+        "E04",
+        "E05"
+      ],
+      "act": "片尾",
+      "seconds": 7,
+      "original_seconds": 16,
+      "timeline_start": 303,
+      "timeline_end": 310,
+      "first_frame": "../frames/F33.png",
+      "last_frame": "../frames/F34.png",
+      "internal_frames_not_conditioned": [],
+      "action": "同一合影背景，旁白鼓励后，前方男孩看向镜头说出最后一句，同时轻轻挥手告别；句末自然微笑收尾。",
+      "cast": [
+        "主角",
+        "同学A",
+        "同学B",
+        "老师",
+        "妈妈"
+      ],
+      "utterances": [
+        {
+          "speaker": "旁白",
+          "text": "慢慢说，勇敢说，你的感受很重要。",
+          "sources": [
+            {
+              "segment": "E04",
+              "line": 1,
+              "text": "慢慢说，勇敢说，你的感受很重要。"
+            }
+          ],
+          "start": 0.25,
+          "end": 3.96
+        },
+        {
+          "speaker": "主角",
+          "text": "我会好好说出来！",
+          "sources": [
+            {
+              "segment": "E05",
+              "line": 1,
+              "text": "我会好好说出来！"
+            }
+          ],
+          "start": 4.21,
+          "end": 6.65
+        }
+      ],
+      "punctuation_edits": [],
+      "speech_window_fraction": 0.879,
+      "estimated_reading_seconds": 6.59,
+      "official_scene": {
+        "opening": "2D-animated, a static wide group portrait in the warm pastel composition of Picture 1. The coral-shirt boy stands at the front left, the purple-shirt girl in the front middle and the yellow-shirt boy at the front right; the mint-cardigan teacher and peach-shirt mother stand behind them. Preserve the reference background and existing decorative graphics.",
+        "beats": [
+          "During the narration, the yellow-shirt boy looks directly toward the camera and starts to lift his hand toward the farewell pose. All five characters keep their lips closed while the narrator speaks.",
+          "The yellow-shirt boy speaks his farewell toward the camera while making a small, gentle wave. The other children and the two adults remain smiling silently in their places."
+        ],
+        "ending": "The boy finishes speaking, closes his mouth into a smile and lets the wave settle with his hand raised exactly as in Picture 2. The other four characters retain their final reference poses and spacing, and the shot ends without an added hold, cut or camera move."
+      },
+      "prompt_file": "prompts/RE04.txt",
+      "input_mode": "FL2VA"
+    }
+  ]
+}

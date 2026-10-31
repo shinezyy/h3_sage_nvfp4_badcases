@@ -1,0 +1,55 @@
+{
+  "RB01": {
+    "opening": "2D-animated, with the soft pastel colors and clean outlines of Picture 1. A static medium shot frames the small boy in a yellow shirt at the left of a pale wooden coloring table and the teacher in a mint-green cardigan standing to his right. A flower drawing and red crayon rest beneath the boy's hands; classroom shelves and windows remain in the background.",
+    "beats": [
+      "The teacher leans slightly toward the table and addresses the boy with a serious, impatient delivery at ordinary speaking volume. The boy stops coloring, lowers his gaze, and curls his fingers around the red crayon; the teacher keeps her hands relaxed rather than pointing at him."
+    ],
+    "ending": "The boy's shoulders settle lower and his eyes remain on the drawing. The teacher's expression softens as she watches him. Their positions, the red crayon, and the flower paper settle into the arrangement in Picture 2 without moving the camera."
+  },
+  "RB02": {
+    "opening": "2D-animated, preserving the pastel classroom and static medium framing in Picture 1. The yellow-shirted boy sits on the left, looking down at his flower drawing with the red crayon in hand. The teacher in a mint-green cardigan stands on the right and looks toward him.",
+    "beats": [
+      "During the narration, the boy blinks, lets his shoulders relax a little, and continues looking at the page. The teacher remains beside him with a softened, attentive expression. These small movements leave the drawing and crayon in place."
+    ],
+    "ending": "The boy returns to the lowered gaze and hand position shown in Picture 2, while the teacher settles into the same concerned posture beside him. The fixed camera, furniture, and classroom lighting do not change."
+  },
+  "RB04": {
+    "opening": "2D-animated, with warm evening colors and the static medium two-shot in Picture 1. The small boy in a yellow shirt and teal trousers stands on the left of the living room, eyes lowered and hands gathered near his body. His mother, wearing a peach top and cream trousers, kneels at his eye level on the right beside the cream sofa; the lamp and wooden table stay behind them.",
+    "beats": [
+      "The mother tilts her face toward the boy and asks gently, keeping her posture low and her hands relaxed. The boy gradually lifts his eyes to meet hers while she finishes.",
+      "The boy brings one hand toward his chest and explains his worry in a hesitant child's voice, keeping the written stutter and brief pauses. His mother listens with her lips closed, maintaining eye contact without interrupting or completing the sentence for him."
+    ],
+    "ending": "The boy remains upright with his hand close to his chest and his gaze lifted toward his mother. She holds her attentive kneeling posture, arriving at the spacing, faces, and hand positions in Picture 2."
+  },
+  "RB06": {
+    "opening": "2D-animated, preserving the warm living room and static medium two-shot of Picture 1. The yellow-shirted boy stands on the left with one hand near his chest, facing his mother in a peach top and cream trousers. She kneels on the right at his eye level, with the cream sofa, wooden table, and evening lamp behind them.",
+    "beats": [
+      "The mother looks directly at the boy and gently asks her question, keeping her face close to his eye level. The boy watches her without speaking over her.",
+      "The boy gives a small nod and answers in a subdued but clear child's voice. His mother listens with her lips closed and begins to extend her hands toward his.",
+      "During the narration, the mother gently takes the boy's hands. His shoulders loosen and his worried expression eases into a small smile as they look at one another."
+    ],
+    "ending": "Their hands remain lightly joined, the boy stands more comfortably, and the mother stays kneeling. They settle into the handhold, gaze, and composition shown in Picture 2; the camera remains still."
+  },
+  "RB08": {
+    "opening": "2D-animated, with the pastel kindergarten corner and static medium-wide framing of Picture 1. The mother in a peach top and cream trousers stands left of center facing the teacher in a mint-green cardigan on the right. The yellow-shirted boy waits farther left beside the toy shelf. The two adults stand at a comfortable conversational distance.",
+    "beats": [
+      "The mother calmly explains the situation, turning one relaxed open hand slightly toward the teacher. The teacher listens with her lips closed and her gaze on the mother's face. The boy remains beside the shelf and looks toward the adults."
+    ],
+    "ending": "The mother's small hand gesture returns to its starting position as the teacher maintains her attentive stance. All three settle into the same arrangement in Picture 2, with no change of viewpoint or location."
+  },
+  "RB09": {
+    "opening": "2D-animated, retaining the pastel kindergarten corner and static medium-wide shot of Picture 1. The mother in peach stands left of center, facing the mint-cardigan teacher on the right. The yellow-shirted boy stands beside the shelf at the far left and watches them.",
+    "beats": [
+      "The mother makes a small open-handed gesture and delivers her request in a calm, courteous voice. The teacher listens without interrupting, keeping her shoulders relaxed.",
+      "The teacher nods once and replies with a gentle, measured delivery, gradually bringing one hand toward her upper chest. The mother lowers her gesturing hand and smiles slightly; the boy's expression becomes reassured."
+    ],
+    "ending": "The teacher's hand and nod settle into the understanding posture in Picture 2. The mother faces her with relaxed hands, and the boy remains in place beside the shelf. Preserve their spacing and the fixed classroom composition."
+  },
+  "RB10": {
+    "opening": "2D-animated, preserving the pastel kindergarten corner and static medium-wide composition in Picture 1. The mother in peach stands left of center, the teacher in a mint-green cardigan stands on the right with a hand near her chest, and the yellow-shirted boy watches from beside the shelf at the far left.",
+    "beats": [
+      "During the narration, the adults exchange a small friendly nod. The boy lifts his gaze toward them and gives a slight relieved smile; their feet and surrounding furniture remain in place."
+    ],
+    "ending": "The nods subside and the three characters return to the relaxed poses and eye lines in Picture 2. The teacher's hand settles near her chest and the mother remains facing her, with the boy still beside the shelf."
+  }
+}

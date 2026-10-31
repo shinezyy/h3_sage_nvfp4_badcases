@@ -18,6 +18,17 @@ Three previously problematic MiniMax-H3 FL2VA clips with SageAttention + NVFP4, 
 
 These are the earlier generated clips. The later shortened/resegmented storyboard has not yet been generated.
 
+## Official-skill rewrite (v3, not yet generated)
+
+The complete storyboard is rewritten using the official MiniMax H3 FL2VA prompt-writing skill: **31 clips, 310 seconds**, covering all 44 original segments. Original dialogue and punctuation are preserved, with English descriptions, stable speaker IDs, dialogue tags, and explicit first/last-frame alignment.
+
+- [All 31 prompts](storyboards/official_h3_v3/all-prompts.md)
+- [Version notes and rebuild instructions](storyboards/official_h3_v3/README.md)
+- [Full manifest](storyboards/official_h3_v3/manifest.json) · [Three-clip pilot](storyboards/official_h3_v3/pilot-manifest.json)
+- [Reference frames](storyboards/frames/) · [Original-to-revised mapping](storyboards/official_h3_v3/mapping.csv)
+
+This package includes the 33 reused reference images, frozen source scripts, previous prompts for comparison, and the pinned official skill. Local checks passed; no v3 videos or audio-quality improvements have been validated yet.
+
 Each case tracks the exact UTF-8 prompt, first/last PNG keyframes, actual generated MP4, request parameters, SHA-256, timing, and automatic audio transcription. `baseline/` preserves the earlier longer prompt and video for comparison. Only image URIs in `request.json` were rewritten to portable container paths; prompt and other request parameters are unchanged. Output bytes are unchanged. Model weights and container layers are not included.
 
 ## Reproduction

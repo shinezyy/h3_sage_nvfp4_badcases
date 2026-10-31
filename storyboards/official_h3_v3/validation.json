@@ -1,0 +1,502 @@
+{
+  "status": "offline_passed",
+  "clips": 31,
+  "original_segments_covered_once_in_order": 44,
+  "total_seconds": 310,
+  "all_original_dialogue_and_punctuation_verbatim": true,
+  "all_fields_and_speaker_tags_valid": true,
+  "all_frame_paths_and_settings_unchanged": true,
+  "punctuation_restorations_from_v2": [
+    {
+      "clip": "RC01",
+      "before": "在幼儿园里，也会有很多开心的事情。比如钓鱼玩具很好玩。",
+      "after": "在幼儿园里，也会有很多开心的事情。比如钓鱼玩具很好玩，",
+      "reason": "Restore original punctuation verbatim per official guide"
+    },
+    {
+      "clip": "RC03",
+      "before": "跟着音乐跳舞很开心。",
+      "after": "跟着音乐跳舞很开心，",
+      "reason": "Restore original punctuation verbatim per official guide"
+    }
+  ],
+  "checks_by_clip": [
+    {
+      "id": "RP01",
+      "source_ids": [
+        "P01"
+      ],
+      "seconds": 11,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 2,
+      "checks": "passed"
+    },
+    {
+      "id": "RA01",
+      "source_ids": [
+        "A01",
+        "A02"
+      ],
+      "seconds": 12,
+      "speakers": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA03",
+      "source_ids": [
+        "A03"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S1",
+        "S2"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA04",
+      "source_ids": [
+        "A04"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S3",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA05",
+      "source_ids": [
+        "A05"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA06",
+      "source_ids": [
+        "A06",
+        "A07"
+      ],
+      "seconds": 15,
+      "speakers": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA08",
+      "source_ids": [
+        "A08"
+      ],
+      "seconds": 7,
+      "speakers": [
+        "S2",
+        "S3"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA09",
+      "source_ids": [
+        "A09",
+        "A10"
+      ],
+      "seconds": 13,
+      "speakers": [
+        "S1",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA11",
+      "source_ids": [
+        "A11",
+        "A12"
+      ],
+      "seconds": 13,
+      "speakers": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA13",
+      "source_ids": [
+        "A13"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA14",
+      "source_ids": [
+        "A14"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RA15",
+      "source_ids": [
+        "A15"
+      ],
+      "seconds": 6,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB01",
+      "source_ids": [
+        "B01"
+      ],
+      "seconds": 7,
+      "speakers": [
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB02",
+      "source_ids": [
+        "B02",
+        "B03"
+      ],
+      "seconds": 11,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB04",
+      "source_ids": [
+        "B04",
+        "B05"
+      ],
+      "seconds": 12,
+      "speakers": [
+        "S2",
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB06",
+      "source_ids": [
+        "B06",
+        "B07"
+      ],
+      "seconds": 15,
+      "speakers": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB08",
+      "source_ids": [
+        "B08"
+      ],
+      "seconds": 10,
+      "speakers": [
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB09",
+      "source_ids": [
+        "B09"
+      ],
+      "seconds": 11,
+      "speakers": [
+        "S5",
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RB10",
+      "source_ids": [
+        "B10"
+      ],
+      "seconds": 8,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC01",
+      "source_ids": [
+        "C01",
+        "C02"
+      ],
+      "seconds": 11,
+      "speakers": [
+        "S1",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC03",
+      "source_ids": [
+        "C03"
+      ],
+      "seconds": 6,
+      "speakers": [
+        "S1",
+        "S5"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC04",
+      "source_ids": [
+        "C04"
+      ],
+      "seconds": 7,
+      "speakers": [
+        "S1",
+        "S2"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC05",
+      "source_ids": [
+        "C05",
+        "C06"
+      ],
+      "seconds": 12,
+      "speakers": [
+        "S2",
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC07",
+      "source_ids": [
+        "C07",
+        "C08"
+      ],
+      "seconds": 13,
+      "speakers": [
+        "S1",
+        "S2"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC09",
+      "source_ids": [
+        "C09"
+      ],
+      "seconds": 9,
+      "speakers": [
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC10",
+      "source_ids": [
+        "C10"
+      ],
+      "seconds": 8,
+      "speakers": [
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC11",
+      "source_ids": [
+        "C11",
+        "C12"
+      ],
+      "seconds": 12,
+      "speakers": [
+        "S2",
+        "S6"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RC13",
+      "source_ids": [
+        "C13"
+      ],
+      "seconds": 7,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RE01",
+      "source_ids": [
+        "E01",
+        "E02"
+      ],
+      "seconds": 14,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RE03",
+      "source_ids": [
+        "E03"
+      ],
+      "seconds": 8,
+      "speakers": [
+        "S1"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    },
+    {
+      "id": "RE04",
+      "source_ids": [
+        "E04",
+        "E05"
+      ],
+      "seconds": 7,
+      "speakers": [
+        "S1",
+        "S2"
+      ],
+      "shots": 1,
+      "checks": "passed"
+    }
+  ],
+  "input_and_prompt_sha256": {
+    "prompts/RP01.txt": "210f8b6d572c1694896ae548d21157a7675d7214fc8a8e77de3ec2be1cad97d9",
+    "../frames/F00.png": "31b0630beec0cba5f0ba67d48863de0982ccf306d0f9af7ed29e67c95840d110",
+    "../frames/F01.png": "68e2edb4dc488eea76aa3d2ae62e3cd957b47dc7c53922a422c994f13559d74a",
+    "prompts/RA01.txt": "83dbc005322cba61f31b39e2ec11fdd0c29a8ff06936135658675d46bd49926c",
+    "../frames/F02.png": "fdcab3fa661bed036cbe4518234a1c8d7072dd47475bb428257e81f8e627848f",
+    "../frames/F04.png": "8c8353b3036c0e23e869ff04db39a0fcd6eac4a1e4a31be615c56012a1346540",
+    "prompts/RA03.txt": "60fb636b5720bf6552f3e2280a2aa242fb228e06dece601b08a3355085c3dcdc",
+    "prompts/RA04.txt": "54702708c0f377e9bbe0dd475f3e4462bdebfa7f9a2a4acf70bef64283e2291d",
+    "../frames/F05.png": "c362c5466755622c8a5c2e17c714016eeb044e215bb1f6ee341fda54bc96d4ff",
+    "prompts/RA05.txt": "2f22cc4c92c0f70ba9192391ff4bb71610891b9d99f5e9cfc8e124eeb4754810",
+    "../frames/F06.png": "4c476c7c037af5cae8497b3be60e065b9dbdf1c212100b522f37e195a884cf1f",
+    "prompts/RA06.txt": "30c2e1b96876b81b79f0b56d8839e612392910f63dc3bb3c59cd4a7a48df9578",
+    "../frames/F07.png": "9bc384edd414f16b62486d43db5426a8faa4ee79bbec8150515bb418c7fd4455",
+    "prompts/RA08.txt": "c16ef7595ad703d7283d60d972423941ace3dd45c717136d9142726bb2ccd1fd",
+    "../frames/F08.png": "0bc2117f3cf54b0e7419449be8ea5d34dc44b6c2591ddf696542081b95dbac99",
+    "../frames/F09.png": "a758d4ceeda165b14f3b9c5660eb2585ae5c0d23090e4f7ecd35693ba640c86f",
+    "prompts/RA09.txt": "19284d004814d55caf98868147056b862acb2e4d93c5d64d60d253d4b9e4aa20",
+    "prompts/RA11.txt": "38c390d978ebff65337a3f75e756a1bf16d7dd98681ee33451dced86c21ba4d4",
+    "../frames/F10.png": "a5fe8b926d5af3092f7b71ee66e74dd443163157dce133fbdb93391a893e1430",
+    "../frames/F11.png": "984f84672259d1aff8d8af88c25c795a76ca2b9d5757d84d24612d20674f0bc4",
+    "prompts/RA13.txt": "af31859c040b26c10b713f4b52034a6d6ec35c2b919650e66e61eebcf821b817",
+    "prompts/RA14.txt": "780f32b4962e1f0038a319404d9fa6d257648f12a1b759f5aa4bc60c1bb79a54",
+    "../frames/F12.png": "65b91e2a061147905e5979768d3aea3cd8ccf57c042aedccbbb15ba10279ab01",
+    "../frames/F13.png": "243ce9137fea14bf15aa97801a9ee19003a0f4a4cd4df375fa7db568e670bb14",
+    "prompts/RA15.txt": "550c22134740f9cfe2e2308b017f3db220cafbb973bfe5dc36550146218176e8",
+    "../frames/F14.png": "2ada6be1d0fba5c18f9b8844bbec2e0d9d898e415671eafcc3ba9b31b052f379",
+    "prompts/RB01.txt": "a0ddc1b346ac02ef69c254e0558c09cb0fc9f45fcdd4ee66b33d02a08e5eb47a",
+    "../frames/F15.png": "242dbcc4a963139d09c2469701b305a6e19a9b7193f501f27e623f476650d160",
+    "../frames/F16.png": "eb75c4dc828eab881fdf25d6fe65a16ddc39114928e0df18f967af1ca4d5d118",
+    "prompts/RB02.txt": "994ab311dba676ee36df10b0c3b80563c10a218dc42c18b8c6f60aa5594c8e77",
+    "prompts/RB04.txt": "a1aab64d613b9b358b36a3a9c0b488549780d4558bcf210d653127f7633636d7",
+    "../frames/F17.png": "3d209012be21c18bdf28e14cfc64275594b65ade5f8db7382e71491c3d1306f9",
+    "../frames/F18.png": "44377aca88576efe9242f158ac79d67ff531cf6e50fc3e55c66206d256c42c5d",
+    "prompts/RB06.txt": "b00155c2c26baa64add6b5fcd002decea1384b379879bf49214b20933a08b417",
+    "../frames/F19.png": "80de76af41cbbfa8356f86fc801f18665d81e618b0fccb6971cfc4fded2fe368",
+    "prompts/RB08.txt": "94d0a4f2d5860191f7638c9cbd10e83b342187de5618db8848c0ff625c1c3178",
+    "../frames/F20.png": "8fc6a30c9fe7161fdb11ddb4c48f85b738cfff554ecc8f469c19beed74d92650",
+    "prompts/RB09.txt": "ab5b127259914de82c44a56e5e33eb62174b982ab0061bbab4f878c525801dd9",
+    "../frames/F21.png": "03eb3e2ad04edcf7ab9c20007ad4c38ba83da13bc1997da62c3df9d4d1ea7500",
+    "prompts/RB10.txt": "57ba130c714d3c3dec97f6e3f736e1977ac0a8b78b38e286b25e9912593f6cd5",
+    "prompts/RC01.txt": "d979568c1fdf254d43e3299431d2374a84673c6a8c8757a85b031cc0d4695d98",
+    "../frames/F22.png": "210c45c2502e742f66a7d6daa5878aa1e3b4d30d22074d12f587f2756611d840",
+    "../frames/F23.png": "5b5fc143e57049d25169995378feae84128f98055ea18c84fb2d979600369e03",
+    "prompts/RC03.txt": "3a46cbf53b6e11ee3cd067be25f874887e86d77afeb9fce1400a4d1f3c79d24d",
+    "../frames/F24.png": "bc6b4ce0214e4ef59f4e5bc4ad0a54051dbbb1fa0cba31812ec669b7294af2d5",
+    "../frames/F25.png": "8bb76d169c1496672d4d1394c94d78bb9fcdbc1dcce459fbcf74c2db70b6b3af",
+    "prompts/RC04.txt": "99e5c46b36e22e306d187ab4b8c4f705c3a0e619895c222267823a74a5e4f4ca",
+    "prompts/RC05.txt": "76fce9b02c1b949a6776070295e0464e492121e82ff9a93c67e2471283931f33",
+    "../frames/F26.png": "78a08f74ef40eba7b5924d1501ebe192fc0814113fb851c91e6ef59dad307d74",
+    "../frames/F27.png": "c7d667bc9d3ef64f3a32f201b6b9958f0725e63a0879c40e0aa5363bb4a15738",
+    "prompts/RC07.txt": "d2f833b378f23b5abfe92a919efb3bfd1ae2a1c72fdd0c894e37cda301b3bd94",
+    "../frames/F28.png": "9ed6475a45a543f3fa63f678e0210e7bad9c11f0beaee68ce69cd5d0cc71a3a6",
+    "prompts/RC09.txt": "7484ac3b83f8bac0c9ef1c92cd4eac960e513ea8b57fa6f61c42991e6e0d4b72",
+    "../frames/F29.png": "40f8629999092ecb3705979d8b7d53cf2219ac8b11bc1e1bdd9d2b436eaf4afd",
+    "prompts/RC10.txt": "7130f2c28de681361346cccdc3ede4276515e359f972866ffe7de6e63b39409b",
+    "../frames/F30.png": "bafb7e63cdc517a88985c528ebe6d504d5cf7f56d3edbc97034a5e685eddc14c",
+    "prompts/RC11.txt": "0890787f1f6c0e287799c7206e3f41bf10e533bbed580b0ce7c3fe8ec62969c8",
+    "../frames/F32.png": "8a0b1f2a5b1395c42630a8cce59e2cf35332a0c94ef4cb57fce3d383ce4e0611",
+    "prompts/RC13.txt": "9a402e88aa43782f9ca75dd585f45f1c0b53b0699d146b942366c142e34e955d",
+    "prompts/RE01.txt": "bfaf5d5657046f62f62eb4688a1861de201d5c9cb9dae1ab440d18e3e4a5c719",
+    "../frames/F33.png": "e559e2d0972d1f9bef6e5f46d8bb1af8f654fb3bcc52e9a267baf2f0a14f1369",
+    "prompts/RE03.txt": "3cdf815277027154cb4e17f24a9ed420aef44f61926a587d3872989ad0bc486a",
+    "prompts/RE04.txt": "17d5ea8861ed10c1e2c3bcd8f115b6fdbedb0a32aaa731fca8b760b004bb6797",
+    "../frames/F34.png": "08168459ba237036edad48674d4d0b5ed01a6154146a00249fc9898c8d30fe88",
+    "source/frame-sha256.json": "0d1be51843fc01761c7a609faa8ff2e0f2a7966ae24ddc737d88ff649030f214",
+    "source/storyboard-original.json": "b03ec0914f6d56a7fb28874f61bd663443e6a50f508fdfcaa85848a3c1e546e8",
+    "source/storyboard-v2.json": "3b8df67af4655e67fe9048ce0ca8361912fe1483b6c0c5cb17ddd0b3dfdf3f65",
+    "source/manifest-v2.json": "0d3b6c104b3eb00e4145d64f73c65d80e3ccca034f11c5e318d9e6695ae65a94"
+  },
+  "inference_performed": false
+}
